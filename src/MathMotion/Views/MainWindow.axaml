@@ -1,0 +1,83 @@
+<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:MathMotion.ViewModels"
+    xmlns:controls="using:MathMotion.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+    x:Class="MathMotion.Views.MainWindow"
+    x:DataType="vm:MainViewModel"
+
+    mc:Ignorable="d"
+
+    d:DesignWidth="1100"
+    d:DesignHeight="700"
+
+    Width="1100"
+    Height="700"
+    MinWidth="700"
+    MinHeight="500"
+
+    Title="MathMotion">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Barra superior -->
+        <Border
+            Grid.Row="0"
+            Padding="16"
+            Background="#F4F4F4"
+            BorderBrush="#CCCCCC"
+            BorderThickness="0,0,0,1">
+
+            <StackPanel Spacing="8">
+
+                <StackPanel
+                    Orientation="Horizontal"
+                    Spacing="10">
+
+                    <TextBlock
+                        VerticalAlignment="Center"
+                        FontSize="16"
+                        FontWeight="SemiBold"
+                        Text="f(x) =" />
+
+                    <TextBox
+                        Width="350"
+                        Watermark="Exemplo: x^2"
+                        Text="{Binding FunctionExpression,
+                               Mode=TwoWay}" />
+
+                    <Button
+                        Padding="18,8"
+                        Content="Desenhar"
+                        Command="{Binding DrawFunctionCommand}" />
+
+                </StackPanel>
+
+                <!-- Mensagem de erro -->
+                <TextBlock
+                    MinHeight="20"
+                    Foreground="#B42318"
+                    Text="{Binding ErrorMessage}" />
+
+            </StackPanel>
+        </Border>
+
+        <!-- Área do gráfico -->
+        <Border
+            Grid.Row="1"
+            Margin="16"
+            BorderBrush="#999999"
+            BorderThickness="1"
+            CornerRadius="4"
+            ClipToBounds="True">
+
+            <controls:GraphCanvas
+                Points="{Binding GraphPoints}" />
+
+        </Border>
+
+    </Grid>
+</Window>
