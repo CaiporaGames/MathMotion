@@ -1,0 +1,181 @@
+.block {
+    overflow: hidden;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    border-radius: 18px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 12px 38px
+        rgba(
+            15,
+            23,
+            42,
+            0.05
+        );
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    padding: 20px 22px;
+
+    border-bottom:
+        1px solid
+        #e2e8f0;
+
+    span {
+        font-size: 0.72rem;
+        font-weight: 800;
+
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+
+        color: #4f46e5;
+    }
+
+    h2 {
+        margin: 5px 0;
+
+        font-size: 1.2rem;
+
+        color: #1e293b;
+    }
+
+    p {
+        max-width: 650px;
+
+        margin: 0;
+
+        line-height: 1.55;
+
+        color: #64748b;
+    }
+
+    > button {
+        flex-shrink: 0;
+
+        padding: 8px 12px;
+
+        border:
+            1px solid
+            #cbd5e1;
+
+        border-radius: 8px;
+
+        background: #ffffff;
+
+        cursor: pointer;
+    }
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    padding: 16px 20px;
+
+    border-top:
+        1px solid
+        #e2e8f0;
+
+    > span {
+        margin-right: 4px;
+
+        font-size: 0.78rem;
+        font-weight: 700;
+
+        color: #64748b;
+    }
+}
+
+.plankControl,
+.selectedControl {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    padding: 6px;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    border-radius: 9px;
+
+    strong {
+        padding:
+            0 5px;
+
+        font-size: 0.78rem;
+
+        color: #475569;
+    }
+
+    span {
+        min-width: 36px;
+
+        text-align: center;
+
+        font-size: 0.75rem;
+
+        color: #64748b;
+    }
+
+    button {
+        padding:
+            6px 9px;
+
+        border:
+            1px solid
+            #cbd5e1;
+
+        border-radius: 6px;
+
+        background: #f8fafc;
+
+        cursor: pointer;
+
+        &:hover {
+            background: #eef2ff;
+
+            border-color: #818cf8;
+        }
+    }
+}
+
+.selectedControl {
+    border-color: #818cf8;
+
+    background: #eef2ff;
+}
+
+.tip {
+    padding:
+        0 20px 16px;
+
+    font-size: 0.78rem;
+
+    color: #94a3b8;
+}
+
+@media (
+    max-width: 650px
+) {
+
+    .header {
+        flex-direction: column;
+    }
+}

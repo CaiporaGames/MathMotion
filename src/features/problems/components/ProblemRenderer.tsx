@@ -26,6 +26,9 @@ type Props = {
     block:
         ProblemBlock;
 };
+import {
+    ProblemGeometryBlockController,
+} from "../controllers/blocks/ProblemGeometryBlockController";
 
 export function ProblemRenderer({
     block,
@@ -69,6 +72,13 @@ export function ProblemRenderer({
 
             return (
                 <ProblemBalanceBlockController
+                    block={block}
+                />
+            );
+        case "geometry":
+
+            return (
+                <ProblemGeometryBlockController
                     block={block}
                 />
             );

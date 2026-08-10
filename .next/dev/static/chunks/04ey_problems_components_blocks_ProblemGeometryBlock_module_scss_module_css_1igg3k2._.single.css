@@ -1,0 +1,112 @@
+/* [project]/src/features/problems/components/blocks/ProblemGeometryBlock.module.scss.module.css [app-client] (css) */
+.ProblemGeometryBlock-module-scss-module__YgGpQG__block {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 38px #0f172a0d;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__header {
+  border-bottom: 1px solid #e2e8f0;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 22px;
+  display: flex;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__header span {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #4f46e5;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__header h2 {
+  color: #1e293b;
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__header p {
+  color: #64748b;
+  max-width: 650px;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__header > button {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  flex-shrink: 0;
+  padding: 8px 12px;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__controls {
+  border-top: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  display: flex;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__controls > span {
+  color: #64748b;
+  margin-right: 4px;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__plankControl, .ProblemGeometryBlock-module-scss-module__YgGpQG__selectedControl {
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+  align-items: center;
+  gap: 7px;
+  padding: 6px;
+  display: flex;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__plankControl strong, .ProblemGeometryBlock-module-scss-module__YgGpQG__selectedControl strong {
+  color: #475569;
+  padding: 0 5px;
+  font-size: .78rem;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__plankControl span, .ProblemGeometryBlock-module-scss-module__YgGpQG__selectedControl span {
+  text-align: center;
+  color: #64748b;
+  min-width: 36px;
+  font-size: .75rem;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__plankControl button, .ProblemGeometryBlock-module-scss-module__YgGpQG__selectedControl button {
+  cursor: pointer;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 6px 9px;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__plankControl button:hover, .ProblemGeometryBlock-module-scss-module__YgGpQG__selectedControl button:hover, .ProblemGeometryBlock-module-scss-module__YgGpQG__selectedControl {
+  background: #eef2ff;
+  border-color: #818cf8;
+}
+
+.ProblemGeometryBlock-module-scss-module__YgGpQG__tip {
+  color: #94a3b8;
+  padding: 0 20px 16px;
+  font-size: .78rem;
+}
+
+@media (max-width: 650px) {
+  .ProblemGeometryBlock-module-scss-module__YgGpQG__header {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=04ey_problems_components_blocks_ProblemGeometryBlock_module_scss_module_css_1igg3k2._.single.css.map*/

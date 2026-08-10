@@ -1,0 +1,15 @@
+/* [project]/src/app/investigacoes/como-atravessar-o-rio/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__Ial81a__page {
+  background: linear-gradient(#f8fafc 0%, #fff 500px);
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 28px;
+}
+
+@media (max-width: 650px) {
+  .page-module-scss-module__Ial81a__page {
+    padding: 30px 14px;
+  }
+}
+
+/*# sourceMappingURL=src_app_investigacoes_como-atravessar-o-rio_page_module_scss_module_css_1igg3k2._.single.css.map*/

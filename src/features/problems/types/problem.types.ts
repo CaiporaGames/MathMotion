@@ -1,6 +1,9 @@
 import type {
     BalanceScenario,
 } from "@/features/balance/types/balance.types";
+import type {
+    RiverCrossingScenario,
+} from "@/features/geometry/types/geometry.types";
 
 export type ProblemDefinition = {
     id: string;
@@ -21,7 +24,8 @@ export type ProblemBlock =
     | QuestionProblemBlock
     | MathProblemBlock
     | DiscoveryProblemBlock
-    | BalanceProblemBlock;
+    | BalanceProblemBlock
+    | GeometryProblemBlock;
 
 export type TextProblemBlock = {
     id: string;
@@ -93,4 +97,20 @@ export type BalanceProblemBlock = {
     scenario: BalanceScenario;
 
     showEquation?: boolean;
+};
+
+export type GeometryProblemBlock = {
+    id: string;
+
+    type: "geometry";
+
+    geometryType:
+        "river-crossing";
+
+    title?: string;
+
+    instruction?: string;
+
+    scenario:
+        RiverCrossingScenario;
 };
