@@ -1,0 +1,118 @@
+.wrapper {
+    width: 100%;
+
+    min-height: 420px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #ffffff 0%,
+            #f8fafc 75%
+        );
+}
+
+.scale {
+    width: 100%;
+    max-width: 950px;
+
+    height: auto;
+
+    overflow: visible;
+}
+
+.ground {
+    stroke: #94a3b8;
+
+    stroke-width: 8;
+
+    stroke-linecap: round;
+}
+
+.support {
+    fill: #475569;
+
+    stroke: #334155;
+
+    stroke-width: 4;
+}
+
+.pivot {
+    fill: #6366f1;
+
+    stroke: #312e81;
+
+    stroke-width: 5;
+}
+
+.beam {
+    stroke: #334155;
+
+    stroke-width: 14;
+
+    stroke-linecap: round;
+}
+
+.rope {
+    stroke: #64748b;
+
+    stroke-width: 3;
+}
+
+.pan {
+    fill: none;
+
+    stroke: #475569;
+
+    stroke-width: 7;
+
+    stroke-linecap: round;
+}
+
+.box {
+    fill: #f59e0b;
+
+    stroke: #b45309;
+
+    stroke-width: 3;
+}
+
+.boxText {
+    fill: #ffffff;
+
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.weight {
+    fill: #e2e8f0;
+
+    stroke: #64748b;
+
+    stroke-width: 3;
+}
+
+.weightNumber {
+    fill: #1e293b;
+
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.weightUnit {
+    fill: #64748b;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        min-height: 330px;
+    }
+}

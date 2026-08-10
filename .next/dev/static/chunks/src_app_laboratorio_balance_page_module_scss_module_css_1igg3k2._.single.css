@@ -1,0 +1,21 @@
+/* [project]/src/app/laboratorio/balance/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__67ixwW__page {
+  background: linear-gradient(#f8fafc 0%, #fff 480px);
+  width: 100%;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+@media (max-width: 900px) {
+  .page-module-scss-module__67ixwW__page {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-module-scss-module__67ixwW__page {
+    padding: 12px;
+  }
+}
+
+/*# sourceMappingURL=src_app_laboratorio_balance_page_module_scss_module_css_1igg3k2._.single.css.map*/
