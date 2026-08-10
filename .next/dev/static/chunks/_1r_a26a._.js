@@ -1233,6 +1233,22 @@ __turbopack_context__.s([
     ()=>BalanceService
 ]);
 class BalanceService {
+    static formatSide(side) {
+        const parts = [];
+        if (side.boxCount === 1) {
+            parts.push("□");
+        }
+        if (side.boxCount > 1) {
+            parts.push(`${side.boxCount}□`);
+        }
+        if (side.knownWeight > 0) {
+            parts.push(`${side.knownWeight} kg`);
+        }
+        if (parts.length === 0) {
+            return "0";
+        }
+        return parts.join(" + ");
+    }
     static calculateTotalWeight(side, hiddenBoxWeight) {
         return side.boxCount * hiddenBoxWeight + side.knownWeight;
     }

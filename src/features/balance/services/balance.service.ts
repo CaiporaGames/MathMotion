@@ -5,6 +5,48 @@ import type {
 
 export class BalanceService {
 
+    static formatSide(
+    side: BalanceSideState,
+): string {
+
+    const parts:
+        string[] = [];
+
+    if (
+        side.boxCount === 1
+    ) {
+        parts.push(
+            "□"
+        );
+    }
+
+    if (
+        side.boxCount > 1
+    ) {
+        parts.push(
+            `${side.boxCount}□`
+        );
+    }
+
+    if (
+        side.knownWeight > 0
+    ) {
+        parts.push(
+            `${side.knownWeight} kg`
+        );
+    }
+
+    if (
+        parts.length === 0
+    ) {
+        return "0";
+    }
+
+    return parts.join(
+        " + "
+    );
+}
+
     static calculateTotalWeight(
         side: BalanceSideState,
         hiddenBoxWeight: number,

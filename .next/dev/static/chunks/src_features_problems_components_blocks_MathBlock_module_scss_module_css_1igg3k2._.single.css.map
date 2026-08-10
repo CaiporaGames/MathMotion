@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Documents/GitHub/MathMotion/src/features/problems/components/blocks/MathBlock.module.scss"],"sourcesContent":[".block {\r\n    padding:\r\n        22px 24px;\r\n\r\n    border:\r\n        1px solid\r\n        #e2e8f0;\r\n\r\n    border-radius: 14px;\r\n\r\n    background: #ffffff;\r\n\r\n    overflow-x: auto;\r\n\r\n    p {\r\n        margin:\r\n            14px 0 0;\r\n\r\n        line-height: 1.6;\r\n\r\n        color: #64748b;\r\n    }\r\n}\r\n\r\n.formula {\r\n    font-size: 1.15rem;\r\n\r\n    color: #0f172a;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAcI;;;;;;AAUJ"}}]
+}
