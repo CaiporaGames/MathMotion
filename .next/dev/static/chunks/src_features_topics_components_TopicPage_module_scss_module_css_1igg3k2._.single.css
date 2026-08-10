@@ -1,0 +1,43 @@
+/* [project]/src/features/topics/components/TopicPage.module.scss.module.css [app-client] (css) */
+.TopicPage-module-scss-module__uiDOXG__topic {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.TopicPage-module-scss-module__uiDOXG__header {
+  margin-bottom: 46px;
+}
+
+.TopicPage-module-scss-module__uiDOXG__header h1 {
+  letter-spacing: -.045em;
+  color: #0f172a;
+  margin: 7px 0 14px;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  line-height: 1.04;
+}
+
+.TopicPage-module-scss-module__uiDOXG__header p {
+  color: #64748b;
+  max-width: 720px;
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.TopicPage-module-scss-module__uiDOXG__area {
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: #4f46e5;
+  font-size: .75rem;
+  font-weight: 800;
+}
+
+.TopicPage-module-scss-module__uiDOXG__content {
+  flex-direction: column;
+  gap: 28px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_features_topics_components_TopicPage_module_scss_module_css_1igg3k2._.single.css.map*/

@@ -1,0 +1,311 @@
+/* [project]/src/features/derivative-explorer/components/DerivativeExplorer.module.scss.module.css [app-client] (css) */
+.DerivativeExplorer-module-scss-module__mwx3PG__explorer {
+  background: #fff;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px #0f172a0f;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__header {
+  border-bottom: 1px solid #e2e8f0;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 22px;
+  display: flex;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__header span {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #2563eb;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__header h3 {
+  color: #1e293b;
+  margin: 5px 0;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__header p {
+  color: #64748b;
+  margin: 0;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__header button {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__graph {
+  background: #fff;
+  width: 100%;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__graph svg {
+  width: 100%;
+  height: auto;
+  min-height: 390px;
+  display: block;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__gridLine {
+  stroke: #e2e8f0;
+  stroke-width: 1px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__axis {
+  stroke: #64748b;
+  stroke-width: 2px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__curve {
+  fill: none;
+  stroke: #4f46e5;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__secant {
+  stroke: #f97316;
+  stroke-width: 3px;
+  stroke-dasharray: 10 7;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__tangent {
+  stroke: #16a34a;
+  stroke-width: 3px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__pointP circle {
+  fill: #4f46e5;
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__pointP text {
+  fill: #312e81;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__pointQ circle {
+  fill: #f97316;
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__pointQ text {
+  fill: #c2410c;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__controls {
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  padding: 20px 22px;
+  display: grid;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__controls label {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__controls label > div {
+  justify-content: space-between;
+  display: flex;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__controls label > div span {
+  color: #475569;
+  font-weight: 700;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__controls label > div strong {
+  color: #1e293b;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__controls label input {
+  cursor: pointer;
+  width: 100%;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__values {
+  border-top: 1px solid #e2e8f0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: grid;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__valueCard {
+  text-align: center;
+  padding: 16px;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__valueCard + .DerivativeExplorer-module-scss-module__mwx3PG__valueCard {
+  border-left: 1px solid #e2e8f0;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__valueCard span {
+  color: #94a3b8;
+  margin-bottom: 5px;
+  font-size: .72rem;
+  display: block;
+}
+
+.DerivativeExplorer-module-scss-module__mwx3PG__valueCard strong {
+  color: #1e293b;
+}
+
+@media (max-width: 700px) {
+  .DerivativeExplorer-module-scss-module__mwx3PG__controls {
+    grid-template-columns: 1fr;
+  }
+
+  .DerivativeExplorer-module-scss-module__mwx3PG__values {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .DerivativeExplorer-module-scss-module__mwx3PG__valueCard:nth-child(3) {
+    border-top: 1px solid #e2e8f0;
+    border-left: 0;
+  }
+
+  .DerivativeExplorer-module-scss-module__mwx3PG__valueCard:nth-child(4) {
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .DerivativeExplorer-module-scss-module__mwx3PG__header {
+    flex-direction: column;
+  }
+}
+
+/* [project]/src/features/topics/components/blocks/TopicCalloutBlock.module.scss.module.css [app-client] (css) */
+.TopicCalloutBlock-module-scss-module__rfscHW__callout {
+  border-radius: 15px;
+  padding: 22px 24px;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__callout span {
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__callout h3 {
+  margin: 7px 0 8px;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__callout p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__idea {
+  color: #166534;
+  background: #f0fdf4;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__question {
+  color: #3730a3;
+  background: #eef2ff;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__historical {
+  color: #9a3412;
+  background: #fff7ed;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__modern {
+  color: #075985;
+  background: #f0f9ff;
+}
+
+/* [project]/src/features/topics/components/blocks/TopicTextBlock.module.scss.module.css [app-client] (css) */
+.TopicTextBlock-module-scss-module__U-k2_q__block {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px 24px;
+  overflow-x: auto;
+}
+
+.TopicTextBlock-module-scss-module__U-k2_q__block p {
+  text-align: center;
+  color: #64748b;
+  margin: 12px 0 0;
+}
+
+.TopicTextBlock-module-scss-module__U-k2_q__formula {
+  color: #0f172a;
+  font-size: 1.1rem;
+}
+
+/* [project]/src/features/topics/components/TopicPage.module.scss.module.css [app-client] (css) */
+.TopicPage-module-scss-module__uiDOXG__topic {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.TopicPage-module-scss-module__uiDOXG__header {
+  margin-bottom: 46px;
+}
+
+.TopicPage-module-scss-module__uiDOXG__header h1 {
+  letter-spacing: -.045em;
+  color: #0f172a;
+  margin: 7px 0 14px;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  line-height: 1.04;
+}
+
+.TopicPage-module-scss-module__uiDOXG__header p {
+  color: #64748b;
+  max-width: 720px;
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.TopicPage-module-scss-module__uiDOXG__area {
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: #4f46e5;
+  font-size: .75rem;
+  font-weight: 800;
+}
+
+.TopicPage-module-scss-module__uiDOXG__content {
+  flex-direction: column;
+  gap: 28px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+/* [project]/src/app/topicos/calculo/problema-de-fermat/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__D0KP9q__page {
+  background: linear-gradient(#f8fafc 0%, #fff 520px);
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 28px;
+}
+
+@media (max-width: 650px) {
+  .page-module-scss-module__D0KP9q__page {
+    padding: 30px 14px;
+  }
+}
+
+/*# sourceMappingURL=src_02bq_l4._.css.map*/

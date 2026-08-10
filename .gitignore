@@ -480,3 +480,4 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+.next/dev/cache/turbopack/v16.3.0-d73f5622/00000087.sst

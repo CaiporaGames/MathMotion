@@ -1,5 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/investigacoes/como-atravessar-o-rio/page": "app/investigacoes/como-atravessar-o-rio/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/topicos/calculo/problema-de-fermat/page": "app/topicos/calculo/problema-de-fermat/page.js"
 }

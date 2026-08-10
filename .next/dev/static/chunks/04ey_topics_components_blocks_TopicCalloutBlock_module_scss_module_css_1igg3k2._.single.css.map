@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Documents/GitHub/MathMotion/src/features/topics/components/blocks/TopicCalloutBlock.module.scss"],"sourcesContent":[".callout {\r\n    padding:\r\n        22px 24px;\r\n\r\n    border-radius:\r\n        15px;\r\n\r\n    span {\r\n        font-size:\r\n            0.72rem;\r\n\r\n        font-weight:\r\n            800;\r\n\r\n        text-transform:\r\n            uppercase;\r\n\r\n        letter-spacing:\r\n            0.09em;\r\n    }\r\n\r\n    h3 {\r\n        margin:\r\n            7px 0 8px;\r\n    }\r\n\r\n    p {\r\n        margin: 0;\r\n\r\n        line-height:\r\n            1.65;\r\n    }\r\n}\r\n\r\n.idea {\r\n    background:\r\n        #f0fdf4;\r\n\r\n    color:\r\n        #166534;\r\n}\r\n\r\n.question {\r\n    background:\r\n        #eef2ff;\r\n\r\n    color:\r\n        #3730a3;\r\n}\r\n\r\n.historical {\r\n    background:\r\n        #fff7ed;\r\n\r\n    color:\r\n        #9a3412;\r\n}\r\n\r\n.modern {\r\n    background:\r\n        #f0f9ff;\r\n\r\n    color:\r\n        #075985;\r\n}"],"names":[],"mappings":"AAAA;;;;;AAOI;;;;;;;AAcA;;;;AAKA;;;;;AAQJ;;;;;AAQA;;;;;AAQA;;;;;AAQA"}}]
+}

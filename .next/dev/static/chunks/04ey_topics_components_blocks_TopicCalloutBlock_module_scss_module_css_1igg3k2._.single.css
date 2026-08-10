@@ -1,0 +1,43 @@
+/* [project]/src/features/topics/components/blocks/TopicCalloutBlock.module.scss.module.css [app-client] (css) */
+.TopicCalloutBlock-module-scss-module__rfscHW__callout {
+  border-radius: 15px;
+  padding: 22px 24px;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__callout span {
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__callout h3 {
+  margin: 7px 0 8px;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__callout p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__idea {
+  color: #166534;
+  background: #f0fdf4;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__question {
+  color: #3730a3;
+  background: #eef2ff;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__historical {
+  color: #9a3412;
+  background: #fff7ed;
+}
+
+.TopicCalloutBlock-module-scss-module__rfscHW__modern {
+  color: #075985;
+  background: #f0f9ff;
+}
+
+/*# sourceMappingURL=04ey_topics_components_blocks_TopicCalloutBlock_module_scss_module_css_1igg3k2._.single.css.map*/
