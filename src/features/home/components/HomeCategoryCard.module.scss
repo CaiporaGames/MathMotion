@@ -1,0 +1,157 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100%;
+
+    overflow: hidden;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 16px 50px
+        rgba(15, 23, 42, 0.05);
+}
+
+.header {
+    padding: 24px 24px 18px;
+
+    h2 {
+        margin:
+            6px 0 8px;
+
+        font-size: 1.5rem;
+
+        letter-spacing: -0.025em;
+
+        color: #0f172a;
+    }
+
+    p {
+        margin: 0;
+
+        min-height: 52px;
+
+        font-size: 0.9rem;
+        line-height: 1.6;
+
+        color: #64748b;
+    }
+}
+
+.eyebrow {
+    font-size: 0.7rem;
+    font-weight: 800;
+
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+
+    color: #4f46e5;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+
+    border-top:
+        1px solid #f1f5f9;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 16px;
+
+    padding: 17px 22px;
+
+    text-decoration: none;
+
+    transition:
+        background 0.15s ease;
+
+    & + & {
+        border-top:
+            1px solid #f1f5f9;
+    }
+
+    &:hover {
+        background: #f8fafc;
+    }
+
+    p {
+        margin:
+            5px 0 0;
+
+        font-size: 0.78rem;
+        line-height: 1.45;
+
+        color: #94a3b8;
+    }
+}
+
+.itemTitle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    strong {
+        font-size: 0.9rem;
+
+        color: #334155;
+    }
+
+    span {
+        padding:
+            3px 7px;
+
+        border-radius: 999px;
+
+        background: #eef2ff;
+
+        font-size: 0.62rem;
+        font-weight: 700;
+
+        color: #4f46e5;
+    }
+}
+
+.arrow {
+    flex-shrink: 0;
+
+    font-size: 1.1rem;
+
+    color: #94a3b8;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 22px;
+
+    border-top:
+        1px solid #e2e8f0;
+
+    text-decoration: none;
+
+    font-size: 0.82rem;
+    font-weight: 800;
+
+    color: #4338ca;
+
+    transition:
+        background 0.15s ease;
+
+    &:hover {
+        background: #eef2ff;
+    }
+}

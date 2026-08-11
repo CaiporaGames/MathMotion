@@ -1,3 +1,7 @@
 {
-  "/laboratorio/escala/page": "app/laboratorio/escala/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/investigacoes/balanca-misteriosa/page": "app/investigacoes/balanca-misteriosa/page.js",
+  "/laboratorio/escala/page": "app/laboratorio/escala/page.js",
+  "/laboratorio/funcoes/page": "app/laboratorio/funcoes/page.js",
+  "/page": "app/page.js"
 }
