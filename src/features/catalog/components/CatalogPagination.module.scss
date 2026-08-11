@@ -1,0 +1,54 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+
+    gap: 6px;
+
+    margin-top: 30px;
+
+    button {
+        min-width: 39px;
+        height: 39px;
+
+        border:
+            1px solid
+            #e2e8f0;
+
+        border-radius: 8px;
+
+        background: white;
+
+        font-weight: 700;
+
+        color: #64748b;
+
+        cursor: pointer;
+
+        &:hover:not(
+            :disabled
+        ) {
+            border-color:
+                #818cf8;
+
+            color:
+                #4338ca;
+        }
+
+        &:disabled {
+            opacity: 0.35;
+
+            cursor: default;
+        }
+    }
+
+    .active {
+        border-color:
+            #4f46e5;
+
+        background:
+            #4f46e5;
+
+        color:
+            white;
+    }
+}

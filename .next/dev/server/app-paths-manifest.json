@@ -3,5 +3,6 @@
   "/investigacoes/balanca-misteriosa/page": "app/investigacoes/balanca-misteriosa/page.js",
   "/laboratorio/escala/page": "app/laboratorio/escala/page.js",
   "/laboratorio/funcoes/page": "app/laboratorio/funcoes/page.js",
+  "/laboratorio/page": "app/laboratorio/page.js",
   "/page": "app/page.js"
 }

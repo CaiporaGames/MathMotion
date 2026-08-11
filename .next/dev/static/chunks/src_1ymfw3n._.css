@@ -1,0 +1,217 @@
+/* [project]/src/features/catalog/components/CatalogItemCard.module.scss.module.css [app-client] (css) */
+.CatalogItemCard-module-scss-module__5RQgXa__card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 24px 26px;
+  text-decoration: none;
+  transition: transform .15s, border-color .15s, box-shadow .15s;
+  display: flex;
+  box-shadow: 0 7px 24px #0f172a09;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__card:hover {
+  border-color: #c7d2fe;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px #0f172a12;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__card:hover .CatalogItemCard-module-scss-module__5RQgXa__arrow {
+  color: #4f46e5;
+  transform: translateX(4px);
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__content {
+  min-width: 0;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__content h2 {
+  color: #1e293b;
+  margin: 7px 0;
+  font-size: 1.2rem;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__content > p {
+  color: #64748b;
+  max-width: 740px;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__meta {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__category {
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: #4f46e5;
+  font-size: .7rem;
+  font-weight: 800;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__date {
+  color: #94a3b8;
+  font-size: .72rem;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__tags {
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  display: flex;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__tags span {
+  color: #64748b;
+  background: #f1f5f9;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: .68rem;
+}
+
+.CatalogItemCard-module-scss-module__5RQgXa__arrow {
+  color: #cbd5e1;
+  flex-shrink: 0;
+  font-size: 1.3rem;
+  transition: transform .15s, color .15s;
+}
+
+/* [project]/src/features/catalog/components/CatalogPagination.module.scss.module.css [app-client] (css) */
+.CatalogPagination-module-scss-module__juHXQa__pagination {
+  justify-content: center;
+  gap: 6px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination button {
+  color: #64748b;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  min-width: 39px;
+  height: 39px;
+  font-weight: 700;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination button:hover:not(:disabled) {
+  color: #4338ca;
+  border-color: #818cf8;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination button:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination .CatalogPagination-module-scss-module__juHXQa__active {
+  color: #fff;
+  background: #4f46e5;
+  border-color: #4f46e5;
+}
+
+/* [project]/src/features/catalog/components/CatalogPage.module.scss.module.css [app-client] (css) */
+.CatalogPage-module-scss-module__l_91WW__catalog {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.CatalogPage-module-scss-module__l_91WW__header {
+  margin-bottom: 35px;
+}
+
+.CatalogPage-module-scss-module__l_91WW__header h1 {
+  letter-spacing: -.05em;
+  color: #0f172a;
+  margin: 7px 0 10px;
+  font-size: clamp(2.5rem, 6vw, 4.4rem);
+  line-height: 1;
+}
+
+.CatalogPage-module-scss-module__l_91WW__header p {
+  color: #64748b;
+  max-width: 700px;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.CatalogPage-module-scss-module__l_91WW__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: #4f46e5;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.CatalogPage-module-scss-module__l_91WW__toolbar {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.CatalogPage-module-scss-module__l_91WW__toolbar > span {
+  color: #94a3b8;
+  font-size: .82rem;
+}
+
+.CatalogPage-module-scss-module__l_91WW__toolbar label {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.CatalogPage-module-scss-module__l_91WW__toolbar label > span {
+  color: #64748b;
+  font-size: .78rem;
+  font-weight: 600;
+}
+
+.CatalogPage-module-scss-module__l_91WW__toolbar select {
+  color: #334155;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 9px 34px 9px 11px;
+}
+
+.CatalogPage-module-scss-module__l_91WW__list {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .CatalogPage-module-scss-module__l_91WW__toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* [project]/src/app/laboratorio/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__x6JVyW__page {
+  background: linear-gradient(#f8fafc 0%, #fff 520px);
+  width: 100%;
+  min-height: 100vh;
+  padding: 55px 28px 90px;
+}
+
+@media (max-width: 650px) {
+  .page-module-scss-module__x6JVyW__page {
+    padding: 35px 14px 70px;
+  }
+}
+
+/*# sourceMappingURL=src_1ymfw3n._.css.map*/

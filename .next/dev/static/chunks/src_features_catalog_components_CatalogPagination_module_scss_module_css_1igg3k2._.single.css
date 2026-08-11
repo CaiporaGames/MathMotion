@@ -1,0 +1,36 @@
+/* [project]/src/features/catalog/components/CatalogPagination.module.scss.module.css [app-client] (css) */
+.CatalogPagination-module-scss-module__juHXQa__pagination {
+  justify-content: center;
+  gap: 6px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination button {
+  color: #64748b;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  min-width: 39px;
+  height: 39px;
+  font-weight: 700;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination button:hover:not(:disabled) {
+  color: #4338ca;
+  border-color: #818cf8;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination button:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+.CatalogPagination-module-scss-module__juHXQa__pagination .CatalogPagination-module-scss-module__juHXQa__active {
+  color: #fff;
+  background: #4f46e5;
+  border-color: #4f46e5;
+}
+
+/*# sourceMappingURL=src_features_catalog_components_CatalogPagination_module_scss_module_css_1igg3k2._.single.css.map*/

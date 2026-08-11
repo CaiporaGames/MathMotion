@@ -54,6 +54,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/investigacoes/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/investigacoes">> = Specific
+  const handler = {} as typeof import("../../../src/app/investigacoes/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/laboratorio/balance/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/laboratorio/balance">> = Specific
@@ -81,6 +90,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/laboratorio/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/laboratorio">> = Specific
+  const handler = {} as typeof import("../../../src/app/laboratorio/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
@@ -94,6 +112,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/topicos/calculo/problema-de-fermat">> = Specific
   const handler = {} as typeof import("../../../src/app/topicos/calculo/problema-de-fermat/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/topicos/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/topicos">> = Specific
+  const handler = {} as typeof import("../../../src/app/topicos/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

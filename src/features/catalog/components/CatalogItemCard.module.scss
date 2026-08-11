@@ -1,0 +1,155 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
+
+    padding:
+        24px 26px;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    border-radius: 16px;
+
+    background:
+        #ffffff;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 7px 24px
+        rgba(
+            15,
+            23,
+            42,
+            0.035
+        );
+
+    transition:
+        transform 0.15s ease,
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+
+    &:hover {
+        transform:
+            translateY(-2px);
+
+        border-color:
+            #c7d2fe;
+
+        box-shadow:
+            0 14px 36px
+            rgba(
+                15,
+                23,
+                42,
+                0.07
+            );
+
+        .arrow {
+            transform:
+                translateX(4px);
+
+            color:
+                #4f46e5;
+        }
+    }
+}
+
+.content {
+    min-width: 0;
+
+    h2 {
+        margin:
+            7px 0;
+
+        font-size:
+            1.2rem;
+
+        color:
+            #1e293b;
+    }
+
+    > p {
+        max-width:
+            740px;
+
+        margin:
+            0;
+
+        line-height:
+            1.55;
+
+        color:
+            #64748b;
+    }
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.category {
+    font-size: 0.7rem;
+    font-weight: 800;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        0.07em;
+
+    color:
+        #4f46e5;
+}
+
+.date {
+    font-size: 0.72rem;
+
+    color: #94a3b8;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 6px;
+
+    margin-top: 12px;
+
+    span {
+        padding:
+            4px 8px;
+
+        border-radius:
+            999px;
+
+        background:
+            #f1f5f9;
+
+        font-size:
+            0.68rem;
+
+        color:
+            #64748b;
+    }
+}
+
+.arrow {
+    flex-shrink: 0;
+
+    font-size: 1.3rem;
+
+    color: #cbd5e1;
+
+    transition:
+        transform 0.15s ease,
+        color 0.15s ease;
+}
