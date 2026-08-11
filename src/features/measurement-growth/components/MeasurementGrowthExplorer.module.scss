@@ -1,0 +1,397 @@
+.explorer {
+    overflow: hidden;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 18px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 14px 42px
+        rgba(15, 23, 42, 0.06);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 20px;
+
+    padding: 20px 22px;
+
+    border-bottom:
+        1px solid #e2e8f0;
+
+    span {
+        font-size: 0.72rem;
+        font-weight: 800;
+
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+
+        color: #4f46e5;
+    }
+
+    h3 {
+        margin: 5px 0;
+
+        color: #1e293b;
+    }
+
+    p {
+        margin: 0;
+
+        color: #64748b;
+    }
+
+    button {
+        padding: 8px 12px;
+
+        border:
+            1px solid #cbd5e1;
+
+        border-radius: 8px;
+
+        background: white;
+
+        cursor: pointer;
+    }
+}
+
+.comparison {
+    display: grid;
+
+    grid-template-columns:
+        1fr auto 1fr;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 24px;
+}
+
+.versus {
+    font-size: 1.4rem;
+    font-weight: 800;
+
+    color: #94a3b8;
+}
+
+.objectPanel {
+    min-width: 0;
+
+    padding: 16px;
+
+    border:
+        1px solid #e2e8f0;
+
+    border-radius: 14px;
+
+    background: #f8fafc;
+}
+
+.objectTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    strong {
+        color: #1e293b;
+    }
+
+    span {
+        font-size: 0.85rem;
+        font-weight: 700;
+
+        color: #15803d;
+    }
+}
+
+.preview {
+    height: 240px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 220px;
+        height: 220px;
+
+        overflow: visible;
+    }
+}
+
+.dimension {
+    text-align: center;
+
+    font-size: 0.85rem;
+
+    color: #64748b;
+
+    strong {
+        color: #1e293b;
+    }
+}
+
+.circle {
+    fill: #fbbf24;
+
+    stroke: #b45309;
+
+    stroke-width: 3;
+}
+
+.square {
+    fill: #bfdbfe;
+
+    stroke: #2563eb;
+
+    stroke-width: 3;
+}
+
+.sphere {
+    fill: #ddd6fe;
+
+    stroke: #7c3aed;
+
+    stroke-width: 3;
+}
+
+.sphereGuide {
+    fill: none;
+
+    stroke: #8b5cf6;
+
+    stroke-width: 2;
+
+    opacity: 0.55;
+}
+
+.measureLine {
+    stroke: #92400e;
+
+    stroke-width: 2;
+
+    stroke-dasharray:
+        6 5;
+}
+
+.cubeFront {
+    fill: #bfdbfe;
+
+    stroke: #1d4ed8;
+
+    stroke-width: 3;
+}
+
+.cubeBack {
+    fill: #dbeafe;
+
+    stroke: #60a5fa;
+
+    stroke-width: 3;
+}
+
+.cubeEdge {
+    stroke: #2563eb;
+
+    stroke-width: 3;
+}
+
+.sliders {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(0, 1fr)
+        );
+
+    gap: 26px;
+
+    padding: 20px 24px;
+
+    border-top:
+        1px solid #e2e8f0;
+
+    background: #f8fafc;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            color: #64748b;
+        }
+
+        strong {
+            color: #1e293b;
+        }
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+.growth {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(0, 1fr)
+        );
+
+    border-top:
+        1px solid #e2e8f0;
+
+    border-bottom:
+        1px solid #e2e8f0;
+}
+
+.growthCard {
+    padding: 18px;
+
+    text-align: center;
+
+    & + & {
+        border-left:
+            1px solid #e2e8f0;
+    }
+
+    .exponent {
+        display: block;
+
+        margin-bottom: 6px;
+
+        font-size: 0.68rem;
+        font-weight: 800;
+
+        text-transform: uppercase;
+
+        color: #94a3b8;
+    }
+
+    > strong {
+        display: block;
+
+        margin-bottom: 7px;
+
+        font-size: 0.88rem;
+
+        color: #334155;
+    }
+
+    > div {
+        font-size: 1.2rem;
+        font-weight: 800;
+
+        color: #4f46e5;
+    }
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+}
+
+.metricRow {
+    display: grid;
+
+    grid-template-columns:
+        minmax(130px, 1.2fr)
+        1fr
+        70px
+        1fr;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 14px 20px;
+
+    & + & {
+        border-top:
+            1px solid #f1f5f9;
+    }
+
+    > div {
+        display: flex;
+        flex-direction: column;
+
+        strong {
+            color: #1e293b;
+        }
+
+        span {
+            font-size: 0.72rem;
+
+            color: #94a3b8;
+        }
+    }
+}
+
+.metricName {
+    font-size: 0.82rem;
+    font-weight: 700;
+
+    color: #64748b;
+}
+
+.metricFactor {
+    text-align: center;
+
+    font-weight: 800;
+
+    color: #4f46e5;
+}
+
+@media (
+    max-width: 700px
+) {
+
+    .comparison {
+        grid-template-columns: 1fr;
+    }
+
+    .versus {
+        text-align: center;
+    }
+
+    .sliders {
+        grid-template-columns: 1fr;
+    }
+
+    .growth {
+        grid-template-columns: 1fr;
+    }
+
+    .growthCard + .growthCard {
+        border-left: 0;
+
+        border-top:
+            1px solid #e2e8f0;
+    }
+
+    .metricRow {
+        grid-template-columns:
+            1fr 1fr;
+
+        .metricFactor {
+            display: none;
+        }
+    }
+}

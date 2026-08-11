@@ -1,4 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/topicos/calculo/problema-de-fermat/page": "app/topicos/calculo/problema-de-fermat/page.js"
+  "/laboratorio/escala/page": "app/laboratorio/escala/page.js"
 }

@@ -63,6 +63,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/laboratorio/escala/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/laboratorio/escala">> = Specific
+  const handler = {} as typeof import("../../../src/app/laboratorio/escala/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/laboratorio/funcoes/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/laboratorio/funcoes">> = Specific

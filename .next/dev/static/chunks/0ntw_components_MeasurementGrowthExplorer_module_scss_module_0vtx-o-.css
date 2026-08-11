@@ -1,0 +1,295 @@
+/* [project]/src/features/measurement-growth/components/MeasurementGrowthExplorer.module.scss.module.css [app-client] (css) */
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__explorer {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 42px #0f172a0f;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__header {
+  border-bottom: 1px solid #e2e8f0;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 22px;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__header span {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #4f46e5;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__header h3 {
+  color: #1e293b;
+  margin: 5px 0;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__header p {
+  color: #64748b;
+  margin: 0;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__header button {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__comparison {
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 18px;
+  padding: 24px;
+  display: grid;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__versus {
+  color: #94a3b8;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__objectPanel {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  min-width: 0;
+  padding: 16px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__objectTitle {
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__objectTitle strong {
+  color: #1e293b;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__objectTitle span {
+  color: #15803d;
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__preview {
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__preview svg {
+  width: 220px;
+  height: 220px;
+  overflow: visible;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__dimension {
+  text-align: center;
+  color: #64748b;
+  font-size: .85rem;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__dimension strong {
+  color: #1e293b;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__circle {
+  fill: #fbbf24;
+  stroke: #b45309;
+  stroke-width: 3px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__square {
+  fill: #bfdbfe;
+  stroke: #2563eb;
+  stroke-width: 3px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__sphere {
+  fill: #ddd6fe;
+  stroke: #7c3aed;
+  stroke-width: 3px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__sphereGuide {
+  fill: none;
+  stroke: #8b5cf6;
+  stroke-width: 2px;
+  opacity: .55;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__measureLine {
+  stroke: #92400e;
+  stroke-width: 2px;
+  stroke-dasharray: 6 5;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__cubeFront {
+  fill: #bfdbfe;
+  stroke: #1d4ed8;
+  stroke-width: 3px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__cubeBack {
+  fill: #dbeafe;
+  stroke: #60a5fa;
+  stroke-width: 3px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__cubeEdge {
+  stroke: #2563eb;
+  stroke-width: 3px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__sliders {
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 26px;
+  padding: 20px 24px;
+  display: grid;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__slider {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__slider div {
+  justify-content: space-between;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__slider div span {
+  color: #64748b;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__slider div strong {
+  color: #1e293b;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__slider input {
+  width: 100%;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__growth {
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: grid;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard {
+  text-align: center;
+  padding: 18px;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard + .MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard {
+  border-left: 1px solid #e2e8f0;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard .MeasurementGrowthExplorer-module-scss-module__j1-e2q__exponent {
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 6px;
+  font-size: .68rem;
+  font-weight: 800;
+  display: block;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard > strong {
+  color: #334155;
+  margin-bottom: 7px;
+  font-size: .88rem;
+  display: block;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard > div {
+  color: #4f46e5;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metrics {
+  flex-direction: column;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow {
+  grid-template-columns: minmax(130px, 1.2fr) 1fr 70px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  display: grid;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow + .MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow {
+  border-top: 1px solid #f1f5f9;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow > div {
+  flex-direction: column;
+  display: flex;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow > div strong {
+  color: #1e293b;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow > div span {
+  color: #94a3b8;
+  font-size: .72rem;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricName {
+  color: #64748b;
+  font-size: .82rem;
+  font-weight: 700;
+}
+
+.MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricFactor {
+  text-align: center;
+  color: #4f46e5;
+  font-weight: 800;
+}
+
+@media (max-width: 700px) {
+  .MeasurementGrowthExplorer-module-scss-module__j1-e2q__comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .MeasurementGrowthExplorer-module-scss-module__j1-e2q__versus {
+    text-align: center;
+  }
+
+  .MeasurementGrowthExplorer-module-scss-module__j1-e2q__sliders, .MeasurementGrowthExplorer-module-scss-module__j1-e2q__growth {
+    grid-template-columns: 1fr;
+  }
+
+  .MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard + .MeasurementGrowthExplorer-module-scss-module__j1-e2q__growthCard {
+    border-top: 1px solid #e2e8f0;
+    border-left: 0;
+  }
+
+  .MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricRow .MeasurementGrowthExplorer-module-scss-module__j1-e2q__metricFactor {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=0ntw_components_MeasurementGrowthExplorer_module_scss_module_0vtx-o-.css.map*/
