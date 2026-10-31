@@ -34,6 +34,7 @@ export type Lesson = {
   hints: string[];
   tool: ToolKind;
   decimalExplorer?: boolean;
+  sequenceExplorer?: boolean;
   toolConfig?: ToolConfig;
   steps: { title: string; text: string; formula?: string }[];
   takeaways: string[];
