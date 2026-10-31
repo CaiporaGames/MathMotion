@@ -1,0 +1,172 @@
+/* [project]/src/components/forms/SubmissionForm.module.scss.module.css [app-client] (css) */
+.SubmissionForm-module-scss-module__AiZGVa__card {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__card h2 {
+  margin-bottom: 14px;
+  font-size: 1.8rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__card > p {
+  font-size: .9rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__card fieldset {
+  border: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+  display: grid;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field {
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  margin-bottom: 17px;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__grid .SubmissionForm-module-scss-module__AiZGVa__field {
+  margin: 0;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__grid {
+  margin-bottom: 18px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field label {
+  font-size: .77rem;
+  font-weight: 700;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field input, .SubmissionForm-module-scss-module__AiZGVa__field select, .SubmissionForm-module-scss-module__AiZGVa__field textarea {
+  border: 1px solid var(--line);
+  width: 100%;
+  min-width: 0;
+  color: var(--ink);
+  background: #fafbf7;
+  border-radius: 9px;
+  padding: 11px 12px;
+  font-size: .9rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field textarea {
+  resize: vertical;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field [aria-invalid="true"] {
+  border-color: #b65d49;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__help {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: .7rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__error {
+  color: #a23727;
+  font-size: .73rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__context {
+  background: #edf3e6;
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-size: .78rem !important;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__context button {
+  color: var(--green);
+  background: none;
+  border: 0;
+  margin-left: 10px;
+  font-size: .7rem;
+  text-decoration: underline;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__consent {
+  color: var(--muted);
+  align-items: start;
+  gap: 9px;
+  font-size: .73rem;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__consent input {
+  accent-color: var(--green);
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__consent a {
+  text-decoration: underline;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__actions {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin: 22px 0 4px;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__actions span {
+  color: var(--muted);
+  align-items: center;
+  gap: 5px;
+  font-size: .69rem;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__trap {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent svg {
+  color: var(--green);
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent h3 {
+  margin: 14px 0 10px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent p {
+  font-size: .85rem;
+}
+
+@media (max-width: 600px) {
+  .SubmissionForm-module-scss-module__AiZGVa__card {
+    padding: 22px 18px;
+  }
+
+  .SubmissionForm-module-scss-module__AiZGVa__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .SubmissionForm-module-scss-module__AiZGVa__card h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_forms_SubmissionForm_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

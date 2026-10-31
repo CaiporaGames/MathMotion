@@ -1,0 +1,25 @@
+.page {
+  max-width: 980px;
+  padding-bottom: 70px;
+}
+.back {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.8rem;
+  margin-top: 30px;
+  color: var(--muted);
+}
+.questions {
+  padding: 35px 0;
+}
+.questions h2 {
+  font-size: 1.5rem;
+}
+.questions ol {
+  color: var(--muted);
+  padding-left: 22px;
+}
+.questions li {
+  padding: 5px 0;
+}

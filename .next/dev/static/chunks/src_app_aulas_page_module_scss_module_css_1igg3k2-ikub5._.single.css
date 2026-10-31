@@ -1,0 +1,23 @@
+/* [project]/src/app/aulas/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__qOBDaq__page {
+  padding-bottom: 75px;
+}
+
+.page-module-scss-module__qOBDaq__grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  display: grid;
+}
+
+.page-module-scss-module__qOBDaq__count {
+  margin-bottom: 20px;
+  font-size: .78rem;
+}
+
+@media (max-width: 650px) {
+  .page-module-scss-module__qOBDaq__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_app_aulas_page_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

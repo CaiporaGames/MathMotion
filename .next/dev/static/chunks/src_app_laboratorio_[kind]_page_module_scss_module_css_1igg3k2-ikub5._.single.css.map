@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Desktop/mathmotion-aulas/mathmotion/src/app/laboratorio/[kind]/page.module.scss","turbopack:///C:/Users/darag/Desktop/mathmotion-aulas/mathmotion/src/app/laboratorio/%5Bkind%5D/page.module.scss"],"sourcesContent":[".page {\n  max-width: 980px;\n  padding-bottom: 70px;\n}\n.back {\n  display: flex;\n  align-items: center;\n  gap: 7px;\n  font-size: 0.8rem;\n  margin-top: 30px;\n  color: var(--muted);\n}\n.questions {\n  padding: 35px 0;\n}\n.questions h2 {\n  font-size: 1.5rem;\n}\n.questions ol {\n  color: var(--muted);\n  padding-left: 22px;\n}\n.questions li {\n  padding: 5px 0;\n}\n",".page {\n  max-width: 980px;\n  padding-bottom: 70px;\n}\n\n.back {\n  display: flex;\n  align-items: center;\n  gap: 7px;\n  font-size: 0.8rem;\n  margin-top: 30px;\n  color: var(--muted);\n}\n\n.questions {\n  padding: 35px 0;\n}\n\n.questions h2 {\n  font-size: 1.5rem;\n}\n\n.questions ol {\n  color: var(--muted);\n  padding-left: 22px;\n}\n\n.questions li {\n  padding: 5px 0;\n}"],"names":[],"mappings":"AAAA;;;;;AAIA;;;;;;;;;AAQA;;;;AAGA;;;;AAGA;;;;;AAIA"}}]
+}

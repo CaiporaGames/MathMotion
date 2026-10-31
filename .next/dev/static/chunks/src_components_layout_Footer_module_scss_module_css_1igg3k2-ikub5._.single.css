@@ -1,0 +1,74 @@
+/* [project]/src/components/layout/Footer.module.scss.module.css [app-client] (css) */
+.Footer-module-scss-module__JLT4gq__footer {
+  border-top: 1px solid var(--line);
+  padding: 38px 0 22px;
+}
+
+.Footer-module-scss-module__JLT4gq__row {
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  display: flex;
+}
+
+.Footer-module-scss-module__JLT4gq__brand {
+  align-items: center;
+  gap: 7px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  display: flex;
+}
+
+.Footer-module-scss-module__JLT4gq__row p {
+  margin: 8px 0;
+  font-size: .82rem;
+}
+
+.Footer-module-scss-module__JLT4gq__links {
+  gap: 24px;
+  font-size: .82rem;
+  display: flex;
+}
+
+.Footer-module-scss-module__JLT4gq__links a {
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.Footer-module-scss-module__JLT4gq__bottom {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  gap: 24px;
+  margin-top: 28px;
+  padding-top: 18px;
+  font-size: .72rem;
+  display: flex;
+}
+
+.Footer-module-scss-module__JLT4gq__bottom span {
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .Footer-module-scss-module__JLT4gq__row {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .Footer-module-scss-module__JLT4gq__links {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .Footer-module-scss-module__JLT4gq__bottom {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .Footer-module-scss-module__JLT4gq__bottom span {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_components_layout_Footer_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

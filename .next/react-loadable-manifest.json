@@ -1,0 +1,24 @@
+{
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 1966,
+    "files": [
+      "static/chunks/966.1775eb621d8d3e09.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 3899,
+    "files": [
+      "static/chunks/899.5ce6b3cbad015b59.js"
+    ]
+  },
+  "controllers\\SubmissionController.tsx -> @/services/submission.service": {
+    "id": 7433,
+    "files": [
+      "static/chunks/711f8d0a-fa2856f2616236d8.js",
+      "static/chunks/d8adc87b-70100ffd1c9c2b88.js",
+      "static/chunks/0e142730-48de9518ac9a3c4e.js",
+      "static/chunks/61-c903f4b45442c295.js",
+      "static/chunks/433.e6e47a6e920094a7.js"
+    ]
+  }
+}

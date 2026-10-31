@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signedIn(){ return request.auth != null; }
+  function admin(){ return signedIn() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)); }
+  function str(x,max){ return x is string && x.size() <= max; }
+  function valid(d){
+   return d.keys().hasAll(['kind','lessonSlug','lessonTitle','step','name','email','phone','year','topic','mode','availability','message','contactRole','consent','uid','status','createdAt'])
+    && d.keys().hasOnly(['kind','lessonSlug','lessonTitle','step','name','email','phone','year','topic','mode','availability','message','contactRole','consent','uid','status','createdAt'])
+    && d.kind in ['question','lesson'] && d.uid == request.auth.uid
+    && str(d.lessonSlug,100) && str(d.lessonTitle,200) && str(d.step,10)
+    && str(d.name,80) && str(d.email,160) && (d.email == '' || d.email.matches('^[^ @]+@[^ @]+[.][^ @]+$'))
+    && str(d.phone,30) && str(d.year,30) && str(d.topic,120) && str(d.availability,300)
+    && d.mode in ['online','coimbra','either'] && d.contactRole in ['student','guardian']
+    && str(d.message,2000) && d.message.size() >= 10 && d.consent == true
+    && d.status == 'new' && d.createdAt == request.time
+    && (d.kind == 'question' || (d.name.size() >= 2 && d.email.size() >= 5 && d.year.size() > 0 && d.topic.size() >= 2 && d.availability.size() >= 3));
+  }
+  function cooled(uid){ return !exists(/databases/$(database)/documents/submissionLimits/$(uid)) || request.time >= get(/databases/$(database)/documents/submissionLimits/$(uid)).data.lastSubmittedAt + duration.value(60,'s'); }
+  match /admins/{uid} {
+   allow get: if signedIn() && request.auth.uid == uid;
+   allow list,write: if false;
+  }
+  match /submissions/{id} {
+   allow create: if signedIn() && valid(request.resource.data) && cooled(request.auth.uid)
+    && getAfter(/databases/$(database)/documents/submissionLimits/$(request.auth.uid)).data.lastSubmittedAt == request.time
+    && getAfter(/databases/$(database)/documents/submissionLimits/$(request.auth.uid)).data.submissionId == id;
+   allow read: if admin();
+   allow update: if admin() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status']) && request.resource.data.status in ['new','contacted','closed'];
+   allow delete: if admin();
+  }
+  match /submissionLimits/{uid} {
+   allow get: if signedIn() && request.auth.uid == uid;
+   allow list,delete: if false;
+   allow create,update: if signedIn() && request.auth.uid == uid && cooled(uid)
+    && request.resource.data.keys().hasOnly(['lastSubmittedAt','submissionId'])
+    && request.resource.data.lastSubmittedAt == request.time && str(request.resource.data.submissionId,100)
+    && getAfter(/databases/$(database)/documents/submissions/$(request.resource.data.submissionId)).data.uid == uid
+    && getAfter(/databases/$(database)/documents/submissions/$(request.resource.data.submissionId)).data.createdAt == request.time;
+  }
+  match /{document=**} {allow read,write: if false;}
+ }
+}

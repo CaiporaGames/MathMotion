@@ -1,0 +1,109 @@
+.page {
+  padding-bottom: 70px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 55px;
+  align-items: start;
+}
+.teacher {
+  padding-top: 14px;
+}
+.avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 22px;
+  background: #dceabf;
+  font-family: Georgia, serif;
+  font-size: 3.3rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+.avatar span {
+  position: absolute;
+  right: -8px;
+  bottom: 0;
+  background: var(--purple);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font: 25px Arial;
+  text-align: center;
+}
+.teacher h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+.teacher > span {
+  font-size: 0.75rem;
+  color: var(--green);
+}
+.teacher p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+.options {
+  border-block: 1px solid var(--line);
+  padding: 13px 0;
+  margin: 24px 0;
+}
+.options p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+.layout aside h3 {
+  font-size: 1.1rem;
+}
+.layout ul {
+  list-style: none;
+  padding: 0;
+}
+.layout li {
+  display: flex;
+  gap: 8px;
+  align-items: start;
+  font-size: 0.82rem;
+  margin: 12px 0;
+}
+.layout li svg {
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.note {
+  font-size: 0.76rem;
+}
+.faq {
+  max-width: 750px;
+  margin: 60px auto 0;
+}
+.faq h2 {
+  font-size: 1.7rem;
+}
+.faq details {
+  border-bottom: 1px solid var(--line);
+  padding: 18px 0;
+}
+.faq summary {
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.faq p {
+  margin: 14px 0 0;
+  font-size: 0.88rem;
+}
+@media (max-width: 850px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .teacher p {
+    max-width: 650px;
+  }
+}

@@ -1,0 +1,69 @@
+/* [project]/src/components/catalog/ToolCard.module.scss.module.css [app-client] (css) */
+.ToolCard-module-scss-module__ux0YGG__card {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  transition: transform .18s, border-color .18s;
+  display: block;
+}
+
+.ToolCard-module-scss-module__ux0YGG__card:hover {
+  border-color: #9ab599;
+  transform: translateY(-3px);
+}
+
+.ToolCard-module-scss-module__ux0YGG__top {
+  color: var(--muted);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.ToolCard-module-scss-module__ux0YGG__icon {
+  width: 48px;
+  height: 48px;
+  color: var(--ink);
+  border-radius: 12px;
+  place-items: center;
+  display: grid;
+}
+
+.ToolCard-module-scss-module__ux0YGG__green {
+  background: #e5f0ce;
+}
+
+.ToolCard-module-scss-module__ux0YGG__purple {
+  background: var(--purple);
+}
+
+.ToolCard-module-scss-module__ux0YGG__blue {
+  background: var(--blue);
+}
+
+.ToolCard-module-scss-module__ux0YGG__orange {
+  background: var(--orange);
+}
+
+.ToolCard-module-scss-module__ux0YGG__card h3 {
+  margin-bottom: 10px;
+  font-size: 1.18rem;
+}
+
+.ToolCard-module-scss-module__ux0YGG__card p {
+  min-height: 42px;
+  font-size: .84rem;
+}
+
+.ToolCard-module-scss-module__ux0YGG__meta {
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 12px;
+  font-size: .66rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_catalog_ToolCard_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

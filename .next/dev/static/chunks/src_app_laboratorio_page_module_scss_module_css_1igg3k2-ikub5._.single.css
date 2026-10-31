@@ -1,0 +1,28 @@
+/* [project]/src/app/laboratorio/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__x6JVyW__page {
+  padding-bottom: 75px;
+}
+
+.page-module-scss-module__x6JVyW__grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+.page-module-scss-module__x6JVyW__count {
+  font-size: .77rem;
+}
+
+@media (max-width: 900px) {
+  .page-module-scss-module__x6JVyW__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .page-module-scss-module__x6JVyW__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_app_laboratorio_page_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

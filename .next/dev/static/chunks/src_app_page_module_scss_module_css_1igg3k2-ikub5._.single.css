@@ -1,0 +1,321 @@
+/* [project]/src/app/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__rcUngW__hero {
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  gap: 58px;
+  padding-top: 65px;
+  padding-bottom: 75px;
+  display: grid;
+}
+
+.page-module-scss-module__rcUngW__hero h1 {
+  margin-bottom: 25px;
+  font-size: clamp(2.7rem, 4.55vw, 4.15rem);
+  line-height: 1.06;
+}
+
+.page-module-scss-module__rcUngW__hero h1 em {
+  color: #55834e;
+  letter-spacing: -.055em;
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+.page-module-scss-module__rcUngW__heroCopy > p {
+  margin-bottom: 28px;
+  font-size: 1rem;
+}
+
+.page-module-scss-module__rcUngW__micro {
+  color: var(--muted);
+  align-items: center;
+  gap: 19px;
+  margin-top: 23px;
+  font-size: .7rem;
+  display: flex;
+}
+
+.page-module-scss-module__rcUngW__micro > span:first-child {
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.page-module-scss-module__rcUngW__micro span span {
+  background: #6a9753;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+}
+
+.page-module-scss-module__rcUngW__heroVisual {
+  position: relative;
+  transform: rotate(1deg);
+}
+
+.page-module-scss-module__rcUngW__heroVisual > section {
+  box-shadow: 10px 15px #e5ecdd;
+}
+
+.page-module-scss-module__rcUngW__floating {
+  background: #e6eedb;
+  border-radius: 6px;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  font-size: .7rem;
+  font-weight: 700;
+  display: inline-flex;
+  position: relative;
+  left: 15px;
+  transform: rotate(-3deg);
+}
+
+.page-module-scss-module__rcUngW__scribble {
+  color: #6c8067;
+  align-items: center;
+  gap: 6px;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-style: italic;
+  display: flex;
+  position: absolute;
+  bottom: -34px;
+  right: 18px;
+  transform: rotate(-3deg);
+}
+
+.page-module-scss-module__rcUngW__ribbon {
+  border-block: 1px solid var(--line);
+  background: #f1f4eb;
+}
+
+.page-module-scss-module__rcUngW__ribbonInner {
+  justify-content: space-between;
+  gap: 18px;
+  padding-block: 21px;
+  display: flex;
+}
+
+.page-module-scss-module__rcUngW__ribbonInner span {
+  align-items: center;
+  gap: 11px;
+  font-size: .78rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.page-module-scss-module__rcUngW__lessons {
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  display: grid;
+}
+
+.page-module-scss-module__rcUngW__link {
+  white-space: nowrap;
+  align-items: center;
+  gap: 7px;
+  font-size: .8rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.page-module-scss-module__rcUngW__labSection {
+  background: #f0f3eb;
+  padding: 62px 0;
+}
+
+.page-module-scss-module__rcUngW__tools {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  display: grid;
+}
+
+.page-module-scss-module__rcUngW__center {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.page-module-scss-module__rcUngW__method {
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+  display: grid;
+}
+
+.page-module-scss-module__rcUngW__method > div p {
+  max-width: 320px;
+}
+
+.page-module-scss-module__rcUngW__method ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-module-scss-module__rcUngW__method li {
+  border-bottom: 1px solid var(--line);
+  gap: 22px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.page-module-scss-module__rcUngW__method li:first-child {
+  padding-top: 0;
+}
+
+.page-module-scss-module__rcUngW__method li > span {
+  color: #81957b;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+}
+
+.page-module-scss-module__rcUngW__method h3 {
+  margin: 2px 0 8px;
+  font-size: 1.2rem;
+}
+
+.page-module-scss-module__rcUngW__method li p {
+  margin: 0;
+  font-size: .85rem;
+}
+
+.page-module-scss-module__rcUngW__cta {
+  color: #fff;
+  background: #214b38;
+  border-radius: 24px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-block: 10px 65px;
+  padding: 50px 56px;
+  display: flex;
+  overflow: hidden;
+}
+
+.page-module-scss-module__rcUngW__ctaLabel {
+  letter-spacing: .13em;
+  color: #c4d9b9;
+  font-size: .63rem;
+  font-weight: 700;
+}
+
+.page-module-scss-module__rcUngW__cta h2 {
+  margin: 18px 0;
+  font-size: 2.6rem;
+}
+
+.page-module-scss-module__rcUngW__cta p {
+  color: #c3d4c5;
+  margin-bottom: 25px;
+  font-size: .85rem;
+}
+
+.page-module-scss-module__rcUngW__ctaArt {
+  color: #d7ed91;
+  background: #315e45;
+  border: 1px solid #547b5c;
+  border-radius: 50%;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  transform: rotate(8deg);
+}
+
+.page-module-scss-module__rcUngW__ctaArt span {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 1000px) {
+  .page-module-scss-module__rcUngW__hero {
+    gap: 30px;
+  }
+
+  .page-module-scss-module__rcUngW__tools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .page-module-scss-module__rcUngW__hero .page-module-scss-module__rcUngW__button {
+    padding: 10px 12px;
+    font-size: .8rem;
+  }
+
+  .page-module-scss-module__rcUngW__method {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-module-scss-module__rcUngW__hero {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-top: 38px;
+    padding-bottom: 64px;
+  }
+
+  .page-module-scss-module__rcUngW__hero h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+
+  .page-module-scss-module__rcUngW__heroVisual {
+    justify-self: center;
+    width: 100%;
+    max-width: 560px;
+    transform: none;
+  }
+
+  .page-module-scss-module__rcUngW__ribbonInner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .page-module-scss-module__rcUngW__ribbonInner span {
+    font-size: .67rem;
+  }
+
+  .page-module-scss-module__rcUngW__lessons {
+    grid-template-columns: 1fr;
+  }
+
+  .page-module-scss-module__rcUngW__method {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .page-module-scss-module__rcUngW__cta {
+    margin-bottom: 40px;
+    padding: 32px 25px;
+  }
+
+  .page-module-scss-module__rcUngW__cta h2 {
+    font-size: 2rem;
+  }
+
+  .page-module-scss-module__rcUngW__ctaArt {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .page-module-scss-module__rcUngW__tools {
+    grid-template-columns: 1fr;
+  }
+
+  .page-module-scss-module__rcUngW__desktop {
+    display: none;
+  }
+
+  .page-module-scss-module__rcUngW__micro {
+    gap: 12px;
+    font-size: .65rem;
+  }
+}
+
+/*# sourceMappingURL=src_app_page_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

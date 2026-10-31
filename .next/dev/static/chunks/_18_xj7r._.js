@@ -1,5 +1,0 @@
-(globalThis["TURBOPACK_CHUNK_LISTS"] || (globalThis["TURBOPACK_CHUNK_LISTS"] = [])).push({
-    script: typeof document === "object" ? document.currentScript : undefined,
-    chunks: ["static/chunks/[root-of-the-server]__1ru1jac._.css","static/chunks/node_modules_next_dist_20wefz_._.js","static/chunks/node_modules_mathjs_lib_esm_utils_1phugax._.js","static/chunks/node_modules_mathjs_lib_esm_entry_14h3q79._.js","static/chunks/node_modules_mathjs_lib_esm_expression_0y3d-et._.js","static/chunks/node_modules_mathjs_lib_esm_type_0zhlrzc._.js","static/chunks/node_modules_mathjs_lib_esm_function_algebra_16o_wmw._.js","static/chunks/node_modules_mathjs_lib_esm_function_matrix_0a_4r8u._.js","static/chunks/node_modules_mathjs_lib_esm_function_arithmetic_0sv7tgr._.js","static/chunks/node_modules_mathjs_lib_esm_function_1iwbfp9._.js","static/chunks/node_modules_mathjs_lib_esm_0kx6o2x._.js","static/chunks/node_modules_0j3zxzs._.js","static/chunks/src_features_function-graph_18rubnu._.js","static/chunks/src_0dvvh9t._.css"],
-    source: "entry"
-});

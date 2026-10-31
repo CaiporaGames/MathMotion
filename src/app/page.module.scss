@@ -1,0 +1,269 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 58px;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 75px;
+}
+.hero h1 {
+  font-size: clamp(2.7rem, 4.55vw, 4.15rem);
+  line-height: 1.06;
+  margin-bottom: 25px;
+}
+.hero h1 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  color: #55834e;
+  letter-spacing: -0.055em;
+}
+.heroCopy > p {
+  font-size: 1rem;
+  margin-bottom: 28px;
+}
+.micro {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  margin-top: 23px;
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+.micro > span:first-child {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.micro span span {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #6a9753;
+}
+.heroVisual {
+  position: relative;
+  transform: rotate(1deg);
+}
+.heroVisual > section {
+  box-shadow: 10px 15px 0 #e5ecdd;
+}
+.floating {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  position: relative;
+  left: 15px;
+  margin-bottom: 12px;
+  background: #e6eedb;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transform: rotate(-3deg);
+}
+.scribble {
+  position: absolute;
+  bottom: -34px;
+  right: 18px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: #6c8067;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transform: rotate(-3deg);
+}
+.ribbon {
+  border-block: 1px solid var(--line);
+  background: #f1f4eb;
+}
+.ribbonInner {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding-block: 21px;
+}
+.ribbonInner span {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.lessons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.labSection {
+  background: #f0f3eb;
+  padding: 62px 0;
+}
+.tools {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.center {
+  text-align: center;
+  margin-top: 28px;
+}
+.method {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+}
+.method > div p {
+  max-width: 320px;
+}
+.method ol {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.method li {
+  display: flex;
+  gap: 22px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.method li:first-child {
+  padding-top: 0;
+}
+.method li > span {
+  font-family: Georgia, serif;
+  color: #81957b;
+  font-size: 1.5rem;
+}
+.method h3 {
+  font-size: 1.2rem;
+  margin: 2px 0 8px;
+}
+.method li p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+.cta {
+  margin-block: 10px 65px;
+  background: #214b38;
+  border-radius: 24px;
+  padding: 50px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  overflow: hidden;
+}
+.ctaLabel {
+  font-size: 0.63rem;
+  letter-spacing: 0.13em;
+  font-weight: 700;
+  color: #c4d9b9;
+}
+.cta h2 {
+  margin: 18px 0;
+  font-size: 2.6rem;
+}
+.cta p {
+  color: #c3d4c5;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+}
+.ctaArt {
+  background: #315e45;
+  border: 1px solid #547b5c;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-shrink: 0;
+  transform: rotate(8deg);
+  color: #d7ed91;
+}
+.ctaArt span {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+}
+@media (max-width: 1000px) {
+  .hero {
+    gap: 30px;
+  }
+  .tools {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero .button {
+    padding: 10px 12px;
+    font-size: 0.8rem;
+  }
+  .method {
+    gap: 35px;
+  }
+}
+@media (max-width: 760px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 38px;
+    gap: 35px;
+    padding-bottom: 64px;
+  }
+  .hero h1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+  .heroVisual {
+    max-width: 560px;
+    width: 100%;
+    justify-self: center;
+    transform: none;
+  }
+  .ribbonInner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ribbonInner span {
+    font-size: 0.67rem;
+  }
+  .lessons {
+    grid-template-columns: 1fr;
+  }
+  .method {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .cta {
+    padding: 32px 25px;
+    margin-bottom: 40px;
+  }
+  .cta h2 {
+    font-size: 2rem;
+  }
+  .ctaArt {
+    display: none;
+  }
+}
+@media (max-width: 440px) {
+  .tools {
+    grid-template-columns: 1fr;
+  }
+  .desktop {
+    display: none;
+  }
+  .micro {
+    font-size: 0.65rem;
+    gap: 12px;
+  }
+}

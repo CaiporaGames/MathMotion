@@ -1,0 +1,143 @@
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 30px;
+}
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 14px;
+}
+.card > p {
+  font-size: 0.9rem;
+}
+.card fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 17px;
+  min-width: 0;
+}
+.grid .field {
+  margin: 0;
+}
+.grid {
+  margin-bottom: 18px;
+}
+.field label {
+  font-size: 0.77rem;
+  font-weight: 700;
+}
+.field input,
+.field select,
+.field textarea {
+  border: 1px solid var(--line);
+  background: #fafbf7;
+  border-radius: 9px;
+  padding: 11px 12px;
+  min-width: 0;
+  width: 100%;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.field textarea {
+  resize: vertical;
+}
+.field [aria-invalid='true'] {
+  border-color: #b65d49;
+}
+.help {
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.error {
+  font-size: 0.73rem;
+  color: #a23727;
+}
+.context {
+  background: #edf3e6;
+  padding: 10px 13px;
+  border-radius: 8px;
+  font-size: 0.78rem !important;
+}
+.context button {
+  font-size: 0.7rem;
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  color: var(--green);
+  margin-left: 10px;
+}
+.consent {
+  display: flex;
+  align-items: start;
+  gap: 9px;
+  font-size: 0.73rem;
+  color: var(--muted);
+}
+.consent input {
+  accent-color: var(--green);
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.consent a {
+  text-decoration: underline;
+}
+.actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 22px 0 4px;
+}
+.actions span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.69rem;
+  color: var(--muted);
+}
+.trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.sent {
+  padding: 25px 0;
+  text-align: center;
+}
+.sent svg {
+  color: var(--green);
+}
+.sent h3 {
+  margin: 14px 0 10px;
+}
+.sent p {
+  font-size: 0.85rem;
+}
+@media (max-width: 600px) {
+  .card {
+    padding: 22px 18px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card h2 {
+    font-size: 1.5rem;
+  }
+}

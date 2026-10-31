@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Desktop/mathmotion-aulas/mathmotion/src/app/laboratorio/page.module.scss"],"sourcesContent":[".page {\n  padding-bottom: 75px;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}\n\n.count {\n  font-size: 0.77rem;\n}\n\n@media (max-width: 900px) {\n  .grid {\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n@media (max-width: 540px) {\n  .grid {\n    grid-template-columns: 1fr;\n  }\n}"],"names":[],"mappings":"AAAA;;;;AAGA;;;;;;AAKA;;;;AAGA;EACE;;;;;AAIF;EACE"}}]
+}

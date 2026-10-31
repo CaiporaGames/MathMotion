@@ -1,0 +1,101 @@
+/* [project]/src/components/layout/Header.module.scss.module.css [app-client] (css) */
+.Header-module-scss-module__rIun6a__header {
+  border-bottom: 1px solid var(--line);
+  z-index: 30;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  background: #fafbf7f5;
+  position: sticky;
+  top: 0;
+}
+
+.Header-module-scss-module__rIun6a__inner {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  height: 84px;
+  display: flex;
+}
+
+.Header-module-scss-module__rIun6a__brand {
+  letter-spacing: -.06em;
+  align-items: center;
+  gap: 9px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  display: flex;
+}
+
+.Header-module-scss-module__rIun6a__word {
+  font-weight: 400;
+}
+
+.Header-module-scss-module__rIun6a__brand small {
+  letter-spacing: .2em;
+  margin-top: 6px;
+  font-size: .5rem;
+  font-weight: 700;
+  display: block;
+}
+
+.Header-module-scss-module__rIun6a__inner nav {
+  align-items: center;
+  gap: 30px;
+  font-size: .86rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.Header-module-scss-module__rIun6a__inner nav a:hover {
+  color: #528845;
+}
+
+.Header-module-scss-module__rIun6a__contact {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 17px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .Header-module-scss-module__rIun6a__inner {
+    height: 76px;
+  }
+
+  .Header-module-scss-module__rIun6a__brand {
+    font-size: 1.1rem;
+  }
+
+  .Header-module-scss-module__rIun6a__brand svg {
+    width: 24px;
+  }
+
+  .Header-module-scss-module__rIun6a__inner nav {
+    gap: 14px;
+    font-size: .75rem;
+  }
+
+  .Header-module-scss-module__rIun6a__contact {
+    border: 0;
+    padding: 0;
+  }
+
+  .Header-module-scss-module__rIun6a__contact svg {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .Header-module-scss-module__rIun6a__inner nav {
+    gap: 8px;
+  }
+
+  .Header-module-scss-module__rIun6a__brand svg {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_layout_Header_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

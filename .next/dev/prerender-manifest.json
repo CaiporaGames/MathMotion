@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "4e2e086229c8d71c5ece3a656a9ca1bc",
-    "previewModeSigningKey": "becc4370664cca36a4925bf0b79b8bf178133572845c187b97bea7b1564215dd",
-    "previewModeEncryptionKey": "051a2795d0cd19def7641eb5dc265f680e18a4b6f891d0c4d811f3976fe00057"
-  }
-}
+{"version":4,"routes":{"/laboratorio/area":{},"/laboratorio/volume":{},"/laboratorio/fractions":{},"/laboratorio/ratio":{},"/laboratorio/percent":{},"/laboratorio/equation":{},"/laboratorio/function":{},"/laboratorio/probability":{},"/laboratorio/pythagoras":{},"/laboratorio/motion":{},"/laboratorio/numberline":{},"/laboratorio/trigonometry":{},"/laboratorio/derivative":{}},"dynamicRoutes":{"/laboratorio/[kind]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/laboratorio/[kind]","routeRegex":"^\\/laboratorio\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[]}

@@ -1,0 +1,226 @@
+/* [project]/src/components/explorers/Explorer.module.scss.module.css [app-client] (css) */
+.Explorer-module-scss-module__bIPC7q__explorer {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.Explorer-module-scss-module__bIPC7q__header {
+  justify-content: space-between;
+  gap: 12px;
+  padding: 23px 26px 0;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__header h3 {
+  margin: 9px 0;
+  font-size: 1.4rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__header p {
+  max-width: 600px;
+  margin-bottom: 12px;
+  font-size: .85rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__label {
+  letter-spacing: .13em;
+  color: var(--green);
+  align-items: center;
+  gap: 6px;
+  font-size: .62rem;
+  font-weight: 800;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__reset {
+  border: 1px solid var(--line);
+  width: 34px;
+  height: 34px;
+  color: var(--ink);
+  background: #fff;
+  border-radius: 9px;
+  flex-shrink: 0;
+  place-items: center;
+  display: grid;
+}
+
+.Explorer-module-scss-module__bIPC7q__body {
+  grid-template-columns: minmax(0, 1.7fr) minmax(180px, 1fr);
+  gap: 25px;
+  padding: 0 26px 20px;
+  display: grid;
+}
+
+.Explorer-module-scss-module__bIPC7q__visual {
+  min-width: 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__controls {
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  padding-top: 22px;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__control label {
+  justify-content: space-between;
+  gap: 10px;
+  font-size: .78rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__control output {
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.Explorer-module-scss-module__bIPC7q__control input {
+  accent-color: var(--green);
+  cursor: ew-resize;
+  width: 100%;
+  min-height: 24px;
+  margin: 12px 0 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__range {
+  color: var(--muted);
+  justify-content: space-between;
+  font-size: .64rem;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 12px 0;
+  display: grid;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics > div {
+  text-align: center;
+  border-right: 1px solid var(--line);
+  min-width: 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics > div:last-child {
+  border: 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics small {
+  color: var(--muted);
+  font-size: .65rem;
+  display: block;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics strong {
+  font-variant-numeric: tabular-nums;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.Explorer-module-scss-module__bIPC7q__formula {
+  border-top: 1px solid var(--line);
+  padding: 0 18px;
+  font-size: .88rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__insight {
+  background: #f1f6e9;
+  gap: 10px;
+  padding: 13px 22px;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__insight svg {
+  color: var(--green);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.Explorer-module-scss-module__bIPC7q__insight p {
+  color: #455d4c;
+  margin: 0;
+  font-size: .79rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__roll {
+  margin: 0;
+  font-size: .8rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__body {
+  display: block;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__header {
+  padding: 18px 22px 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__header p {
+  display: none;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__controls {
+  padding-top: 16px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__control {
+  width: 100%;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__body {
+  padding: 0 22px 18px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__formula {
+  display: none;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__insight {
+  padding: 12px 20px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__visual svg {
+  max-height: 240px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__metrics {
+  padding: 8px 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__header h3 {
+  font-size: 1.12rem;
+}
+
+@media (max-width: 700px) {
+  .Explorer-module-scss-module__bIPC7q__body {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 0 18px 20px;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__header {
+    padding: 20px 18px 0;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__controls {
+    gap: 12px;
+    padding-top: 10px;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__metrics strong {
+    font-size: .95rem;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__insight {
+    padding: 14px 18px;
+  }
+}
+
+/*# sourceMappingURL=src_components_explorers_Explorer_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

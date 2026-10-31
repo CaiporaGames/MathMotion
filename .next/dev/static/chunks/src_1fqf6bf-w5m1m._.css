@@ -1,0 +1,168 @@
+/* [project]/src/components/catalog/Filters.module.scss.module.css [app-client] (css) */
+.Filters-module-scss-module__8prFCW__filters {
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+  margin: 12px 0 28px;
+  display: flex;
+}
+
+.Filters-module-scss-module__8prFCW__search {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 11px;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+  padding: 0 15px;
+  display: flex;
+}
+
+.Filters-module-scss-module__8prFCW__search svg {
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.Filters-module-scss-module__8prFCW__search input {
+  outline-offset: 0;
+  background: none;
+  border: 0;
+  width: 100%;
+  min-width: 0;
+  padding: 17px 0;
+  font-size: .88rem;
+}
+
+.Filters-module-scss-module__8prFCW__select {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 11px;
+  flex-direction: column;
+  gap: 0;
+  min-width: 140px;
+  padding: 5px 12px;
+  display: flex;
+}
+
+.Filters-module-scss-module__8prFCW__select label {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--muted);
+  font-size: .6rem;
+}
+
+.Filters-module-scss-module__8prFCW__select select {
+  color: var(--ink);
+  background: none;
+  border: 0;
+  min-height: 28px;
+  font-size: .85rem;
+}
+
+@media (max-width: 640px) {
+  .Filters-module-scss-module__8prFCW__search {
+    flex-basis: 100%;
+  }
+
+  .Filters-module-scss-module__8prFCW__select {
+    flex: 1;
+  }
+}
+
+/* [project]/src/components/catalog/ToolCard.module.scss.module.css [app-client] (css) */
+.ToolCard-module-scss-module__ux0YGG__card {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  transition: transform .18s, border-color .18s;
+  display: block;
+}
+
+.ToolCard-module-scss-module__ux0YGG__card:hover {
+  border-color: #9ab599;
+  transform: translateY(-3px);
+}
+
+.ToolCard-module-scss-module__ux0YGG__top {
+  color: var(--muted);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.ToolCard-module-scss-module__ux0YGG__icon {
+  width: 48px;
+  height: 48px;
+  color: var(--ink);
+  border-radius: 12px;
+  place-items: center;
+  display: grid;
+}
+
+.ToolCard-module-scss-module__ux0YGG__green {
+  background: #e5f0ce;
+}
+
+.ToolCard-module-scss-module__ux0YGG__purple {
+  background: var(--purple);
+}
+
+.ToolCard-module-scss-module__ux0YGG__blue {
+  background: var(--blue);
+}
+
+.ToolCard-module-scss-module__ux0YGG__orange {
+  background: var(--orange);
+}
+
+.ToolCard-module-scss-module__ux0YGG__card h3 {
+  margin-bottom: 10px;
+  font-size: 1.18rem;
+}
+
+.ToolCard-module-scss-module__ux0YGG__card p {
+  min-height: 42px;
+  font-size: .84rem;
+}
+
+.ToolCard-module-scss-module__ux0YGG__meta {
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 12px;
+  font-size: .66rem;
+  display: flex;
+}
+
+/* [project]/src/app/laboratorio/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__x6JVyW__page {
+  padding-bottom: 75px;
+}
+
+.page-module-scss-module__x6JVyW__grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+.page-module-scss-module__x6JVyW__count {
+  font-size: .77rem;
+}
+
+@media (max-width: 900px) {
+  .page-module-scss-module__x6JVyW__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .page-module-scss-module__x6JVyW__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_1fqf6bf-w5m1m._.css.map*/

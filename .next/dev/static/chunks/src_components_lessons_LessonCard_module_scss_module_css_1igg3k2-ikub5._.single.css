@@ -1,0 +1,101 @@
+/* [project]/src/components/lessons/LessonCard.module.scss.module.css [app-client] (css) */
+.LessonCard-module-scss-module__TS961W__card {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 18px;
+  transition: transform .2s, box-shadow .2s;
+  overflow: hidden;
+}
+
+.LessonCard-module-scss-module__TS961W__card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-4px);
+}
+
+.LessonCard-module-scss-module__TS961W__image {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.LessonCard-module-scss-module__TS961W__image img {
+  aspect-ratio: 800 / 440;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.LessonCard-module-scss-module__TS961W__badge {
+  letter-spacing: .08em;
+  background: #fffffff0;
+  border: 1px solid #ffffff80;
+  border-radius: 6px;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  font-size: .56rem;
+  font-weight: 800;
+  display: flex;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.LessonCard-module-scss-module__TS961W__content {
+  padding: 22px;
+}
+
+.LessonCard-module-scss-module__TS961W__meta {
+  color: var(--green);
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: .69rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.LessonCard-module-scss-module__TS961W__meta span + span {
+  color: var(--muted);
+  border-left: 1px solid var(--line);
+  padding-left: 8px;
+  font-weight: 400;
+}
+
+.LessonCard-module-scss-module__TS961W__content h3 {
+  margin-bottom: 10px;
+  font-size: 1.45rem;
+}
+
+.LessonCard-module-scss-module__TS961W__content p {
+  margin-bottom: 22px;
+  font-size: .87rem;
+}
+
+.LessonCard-module-scss-module__TS961W__bottom {
+  border-top: 1px solid var(--line);
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  display: flex;
+}
+
+.LessonCard-module-scss-module__TS961W__bottom span {
+  color: var(--muted);
+  align-items: center;
+  gap: 6px;
+  font-size: .73rem;
+  display: flex;
+}
+
+.LessonCard-module-scss-module__TS961W__bottom a {
+  background: #f0f5e9;
+  border-radius: 50%;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  display: grid;
+}
+
+/*# sourceMappingURL=src_components_lessons_LessonCard_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

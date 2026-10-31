@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Documents/GitHub/MathMotion/src/app/investigacoes/como-atravessar-o-rio/page.module.scss"],"sourcesContent":[".page {\r\n    width: 100%;\r\n\r\n    min-height: 100vh;\r\n\r\n    padding:\r\n        50px 28px;\r\n\r\n    background:\r\n        linear-gradient(\r\n            180deg,\r\n            #f8fafc 0%,\r\n            #ffffff 500px\r\n        );\r\n}\r\n\r\n@media (\r\n    max-width: 650px\r\n) {\r\n\r\n    .page {\r\n        padding:\r\n            30px 14px;\r\n    }\r\n}"],"names":[],"mappings":"AAAA;;;;;;;AAgBA;EAII"}}]
-}

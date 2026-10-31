@@ -1,0 +1,73 @@
+/* [project]/src/components/catalog/Filters.module.scss.module.css [app-client] (css) */
+.Filters-module-scss-module__8prFCW__filters {
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+  margin: 12px 0 28px;
+  display: flex;
+}
+
+.Filters-module-scss-module__8prFCW__search {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 11px;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+  padding: 0 15px;
+  display: flex;
+}
+
+.Filters-module-scss-module__8prFCW__search svg {
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.Filters-module-scss-module__8prFCW__search input {
+  outline-offset: 0;
+  background: none;
+  border: 0;
+  width: 100%;
+  min-width: 0;
+  padding: 17px 0;
+  font-size: .88rem;
+}
+
+.Filters-module-scss-module__8prFCW__select {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 11px;
+  flex-direction: column;
+  gap: 0;
+  min-width: 140px;
+  padding: 5px 12px;
+  display: flex;
+}
+
+.Filters-module-scss-module__8prFCW__select label {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--muted);
+  font-size: .6rem;
+}
+
+.Filters-module-scss-module__8prFCW__select select {
+  color: var(--ink);
+  background: none;
+  border: 0;
+  min-height: 28px;
+  font-size: .85rem;
+}
+
+@media (max-width: 640px) {
+  .Filters-module-scss-module__8prFCW__search {
+    flex-basis: 100%;
+  }
+
+  .Filters-module-scss-module__8prFCW__select {
+    flex: 1;
+  }
+}
+
+/*# sourceMappingURL=src_components_catalog_Filters_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

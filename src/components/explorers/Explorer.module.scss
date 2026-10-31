@@ -1,0 +1,185 @@
+.explorer {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.header {
+  padding: 23px 26px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.header h3 {
+  margin: 9px 0;
+  font-size: 1.4rem;
+}
+.header p {
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+  max-width: 600px;
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.62rem;
+  letter-spacing: 0.13em;
+  font-weight: 800;
+  color: var(--green);
+}
+.reset {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+}
+.body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(180px, 1fr);
+  gap: 25px;
+  padding: 0 26px 20px;
+}
+.visual {
+  min-width: 0;
+}
+.controls {
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+.control label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.control output {
+  color: var(--green);
+  white-space: nowrap;
+}
+.control input {
+  accent-color: var(--green);
+  width: 100%;
+  cursor: ew-resize;
+  margin: 12px 0 0;
+  min-height: 24px;
+}
+.range {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.64rem;
+  color: var(--muted);
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 0;
+}
+.metrics > div {
+  text-align: center;
+  border-right: 1px solid var(--line);
+  min-width: 0;
+}
+.metrics > div:last-child {
+  border: 0;
+}
+.metrics small {
+  display: block;
+  font-size: 0.65rem;
+  color: var(--muted);
+}
+.metrics strong {
+  display: block;
+  font-size: 1.1rem;
+  font-variant-numeric: tabular-nums;
+}
+.formula {
+  border-top: 1px solid var(--line);
+  font-size: 0.88rem;
+  padding: 0 18px;
+}
+.insight {
+  display: flex;
+  gap: 10px;
+  padding: 13px 22px;
+  background: #f1f6e9;
+}
+.insight svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--green);
+}
+.insight p {
+  font-size: 0.79rem;
+  margin: 0;
+  color: #455d4c;
+}
+.roll {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.compact .body {
+  display: block;
+}
+.compact .header {
+  padding: 18px 22px 0;
+}
+.compact .header p {
+  display: none;
+}
+.compact .controls {
+  padding-top: 16px;
+}
+.compact .control {
+  width: 100%;
+}
+.compact .body {
+  padding: 0 22px 18px;
+}
+.compact .formula {
+  display: none;
+}
+.compact .insight {
+  padding: 12px 20px;
+}
+.compact .visual svg {
+  max-height: 240px;
+}
+.compact .metrics {
+  padding: 8px 0;
+}
+.compact .header h3 {
+  font-size: 1.12rem;
+}
+@media (max-width: 700px) {
+  .body {
+    grid-template-columns: 1fr;
+    padding: 0 18px 20px;
+    gap: 8px;
+  }
+  .header {
+    padding: 20px 18px 0;
+  }
+  .controls {
+    padding-top: 10px;
+    gap: 12px;
+  }
+  .metrics strong {
+    font-size: 0.95rem;
+  }
+  .insight {
+    padding: 14px 18px;
+  }
+}
