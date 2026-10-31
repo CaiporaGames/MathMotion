@@ -5,7 +5,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 52057,
+      "htmlSize": 63207,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -118,7 +118,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 23601,
+      "htmlSize": 56433,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -146,7 +146,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 46129,
+      "htmlSize": 46462,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -170,11 +170,67 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/aulas/dizimas-e-irracionais": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 111944,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/aulas/[slug]",
+      "dataRoute": "/aulas/dizimas-e-irracionais.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/aulas/produto-nulo-balanca": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 98438,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/aulas/[slug]",
+      "dataRoute": "/aulas/produto-nulo-balanca.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/aulas/retangulo-maior-area": {
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 41336,
+      "htmlSize": 41669,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -189,6 +245,34 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/aulas/[slug]",
       "dataRoute": "/aulas/retangulo-maior-area.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/aulas/sequencia-quadrados": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 117667,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/aulas/[slug]",
+      "dataRoute": "/aulas/sequencia-quadrados.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -230,7 +314,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 31216,
+      "htmlSize": 31355,
       "experimentalBypassFor": [
         {
           "type": "header",

@@ -2,11 +2,11 @@
   "/_not-found/page": "/_not-found",
   "/_global-error/page": "/_global-error",
   "/page": "/",
-  "/aulas/[slug]/page": "/aulas/[slug]",
   "/aulas/page": "/aulas",
+  "/aulas/[slug]/page": "/aulas/[slug]",
+  "/explicacoes/page": "/explicacoes",
   "/admin/page": "/admin",
   "/laboratorio/page": "/laboratorio",
   "/laboratorio/[kind]/page": "/laboratorio/[kind]",
-  "/explicacoes/page": "/explicacoes",
   "/privacidade/page": "/privacidade"
 }

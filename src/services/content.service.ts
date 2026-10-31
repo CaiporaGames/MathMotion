@@ -1,8 +1,9 @@
 import data from '@/data/lessons.json';
 import repeatingDecimals from '@/data/lessons/dizimas-e-irracionais.json';
 import squareSequence from '@/data/lessons/sequencia-quadrados.json';
+import zeroProduct from '@/data/lessons/produto-nulo-balanca.json';
 import type { Lesson, ToolInfo } from '@/types/content';
-export const lessons = [...data, repeatingDecimals, squareSequence] as unknown as Lesson[];
+export const lessons = [...data, repeatingDecimals, squareSequence, zeroProduct] as unknown as Lesson[];
 export function getLessons() {
   return [...lessons].sort((a, b) => b.date.localeCompare(a.date));
 }

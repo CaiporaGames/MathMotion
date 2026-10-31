@@ -1,4 +1,4 @@
-// File: C:\Users\darag\Desktop\mathmotion-aulas\mathmotion\src\app\privacidade\page.tsx
+// File: C:\Users\darag\Documents\GitHub\MathMotion\src\app\privacidade\page.tsx
 import * as entry from '../../../../src/app/privacidade/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

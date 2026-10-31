@@ -12,6 +12,10 @@ npm run build
 npx firebase-tools login
 npx firebase-tools use --add
 npx firebase-tools deploy --only hosting
+
+or 
+npm run build
+npm run firebase -- deploy --only hosting --project mathmotion-860ce
 ```
 
 4. Abre `http://localhost:3000`.
