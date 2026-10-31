@@ -1,6 +1,7 @@
 import data from '@/data/lessons.json';
+import repeatingDecimals from '@/data/lessons/dizimas-e-irracionais.json';
 import type { Lesson, ToolInfo } from '@/types/content';
-export const lessons = data as unknown as Lesson[];
+export const lessons = [...data, repeatingDecimals] as unknown as Lesson[];
 export function getLessons() {
   return [...lessons].sort((a, b) => b.date.localeCompare(a.date));
 }

@@ -1,0 +1,893 @@
+/* [project]/src/components/lessons/LessonView.module.scss.module.css [app-client] (css) */
+.LessonView-module-scss-module__DbezGW__page {
+  padding-bottom: 35px;
+}
+
+.LessonView-module-scss-module__DbezGW__back {
+  color: var(--muted);
+  align-items: center;
+  gap: 6px;
+  margin-top: 28px;
+  font-size: .8rem;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__hero {
+  border-bottom: 1px solid var(--line);
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 35px 0 50px;
+  display: grid;
+}
+
+.LessonView-module-scss-module__DbezGW__hero h1 {
+  margin: 18px 0;
+  font-size: clamp(2.4rem, 4.6vw, 4rem);
+}
+
+.LessonView-module-scss-module__DbezGW__hero img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.LessonView-module-scss-module__DbezGW__hero p {
+  font-size: 1.05rem;
+}
+
+.LessonView-module-scss-module__DbezGW__tags {
+  color: var(--muted);
+  align-items: center;
+  gap: 12px;
+  font-size: .7rem;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__layout {
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 45px;
+  padding-top: 40px;
+  display: grid;
+}
+
+.LessonView-module-scss-module__DbezGW__aside {
+  align-self: start;
+  position: sticky;
+  top: 115px;
+}
+
+.LessonView-module-scss-module__DbezGW__aside > span {
+  letter-spacing: .13em;
+  font-size: .62rem;
+  font-weight: 800;
+}
+
+.LessonView-module-scss-module__DbezGW__aside nav {
+  flex-direction: column;
+  gap: 20px;
+  margin: 25px 0;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__aside nav a {
+  align-items: center;
+  gap: 10px;
+  font-size: .8rem;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__aside nav a:hover {
+  color: #719b47;
+}
+
+.LessonView-module-scss-module__DbezGW__aside small {
+  color: #8d9b8a;
+  font-size: .65rem;
+}
+
+.LessonView-module-scss-module__DbezGW__complete {
+  border: 1px solid var(--line);
+  text-align: left;
+  color: var(--green);
+  background: none;
+  border-radius: 9px;
+  align-items: center;
+  gap: 7px;
+  padding: 10px;
+  font-size: .7rem;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__aside p {
+  max-width: 165px;
+  margin-top: 10px;
+  font-size: .65rem;
+}
+
+.LessonView-module-scss-module__DbezGW__article {
+  min-width: 0;
+}
+
+.LessonView-module-scss-module__DbezGW__block {
+  margin-bottom: 50px;
+  scroll-margin-top: 110px;
+}
+
+.LessonView-module-scss-module__DbezGW__problem {
+  font-size: 1.12rem;
+  line-height: 1.8;
+}
+
+.LessonView-module-scss-module__DbezGW__challenge {
+  background: #edf3df;
+  border-radius: 12px;
+  align-items: start;
+  gap: 14px;
+  margin: 25px 0;
+  padding: 20px;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__challenge svg {
+  flex-shrink: 0;
+}
+
+.LessonView-module-scss-module__DbezGW__challenge p {
+  color: var(--ink);
+  margin: 0;
+  font-size: .94rem;
+  font-weight: 600;
+}
+
+.LessonView-module-scss-module__DbezGW__details {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 13px 16px;
+  font-size: .9rem;
+}
+
+.LessonView-module-scss-module__DbezGW__details summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.LessonView-module-scss-module__DbezGW__details p {
+  margin: 12px 0 2px;
+}
+
+.LessonView-module-scss-module__DbezGW__details strong {
+  margin-top: 14px;
+  display: block;
+}
+
+.LessonView-module-scss-module__DbezGW__step {
+  gap: 18px;
+  margin: 30px 0;
+  scroll-margin-top: 110px;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__step > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.LessonView-module-scss-module__DbezGW__stepNumber {
+  background: #e7efdb;
+  border-radius: 50%;
+  flex-shrink: 0;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: .8rem;
+  font-weight: 700;
+  display: grid;
+}
+
+.LessonView-module-scss-module__DbezGW__step h3 {
+  margin: 4px 0 12px;
+  font-size: 1.2rem;
+}
+
+.LessonView-module-scss-module__DbezGW__step p {
+  font-size: .95rem;
+}
+
+.LessonView-module-scss-module__DbezGW__formula {
+  background: #f0f3eb;
+  border-radius: 10px;
+  margin: 12px 0;
+  padding: 4px 12px;
+  overflow: auto;
+}
+
+.LessonView-module-scss-module__DbezGW__questionButton {
+  color: var(--green);
+  text-underline-offset: 3px;
+  background: none;
+  border: 0;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  font-size: .72rem;
+  text-decoration: underline;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__takeaways {
+  background: #eaf1e1;
+  border-radius: 18px;
+  padding: 28px;
+}
+
+.LessonView-module-scss-module__DbezGW__takeaways h2 {
+  font-size: 1.7rem;
+}
+
+.LessonView-module-scss-module__DbezGW__takeaways ul {
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__takeaways li {
+  gap: 10px;
+  font-size: .9rem;
+  display: flex;
+}
+
+.LessonView-module-scss-module__DbezGW__takeaways li svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.LessonView-module-scss-module__DbezGW__exercise {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 22px;
+}
+
+.LessonView-module-scss-module__DbezGW__exercise h3 {
+  margin: 15px 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.LessonView-module-scss-module__DbezGW__exercise .LessonView-module-scss-module__DbezGW__details {
+  background: #fafbf7;
+}
+
+@media (max-width: 850px) {
+  .LessonView-module-scss-module__DbezGW__layout {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .LessonView-module-scss-module__DbezGW__aside {
+    position: static;
+  }
+
+  .LessonView-module-scss-module__DbezGW__aside nav {
+    flex-flow: wrap;
+    gap: 10px 18px;
+    margin: 16px 0;
+  }
+
+  .LessonView-module-scss-module__DbezGW__aside > p, .LessonView-module-scss-module__DbezGW__aside > .LessonView-module-scss-module__DbezGW__complete {
+    display: none;
+  }
+
+  .LessonView-module-scss-module__DbezGW__aside nav a {
+    font-size: .72rem;
+  }
+
+  .LessonView-module-scss-module__DbezGW__hero {
+    gap: 24px;
+  }
+
+  .LessonView-module-scss-module__DbezGW__block {
+    margin-bottom: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .LessonView-module-scss-module__DbezGW__hero {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  }
+
+  .LessonView-module-scss-module__DbezGW__hero img {
+    object-fit: cover;
+    max-height: 220px;
+  }
+
+  .LessonView-module-scss-module__DbezGW__step {
+    gap: 10px;
+  }
+
+  .LessonView-module-scss-module__DbezGW__takeaways {
+    padding: 22px;
+  }
+
+  .LessonView-module-scss-module__DbezGW__exercise {
+    padding: 18px;
+  }
+}
+
+/* [project]/src/components/explorers/Diagram.module.scss.module.css [app-client] (css) */
+.Diagram-module-scss-module__RHlT3a__diagram {
+  border-radius: 12px;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  display: block;
+}
+
+/* [project]/src/components/explorers/Explorer.module.scss.module.css [app-client] (css) */
+.Explorer-module-scss-module__bIPC7q__explorer {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.Explorer-module-scss-module__bIPC7q__header {
+  justify-content: space-between;
+  gap: 12px;
+  padding: 23px 26px 0;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__header h3 {
+  margin: 9px 0;
+  font-size: 1.4rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__header p {
+  max-width: 600px;
+  margin-bottom: 12px;
+  font-size: .85rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__label {
+  letter-spacing: .13em;
+  color: var(--green);
+  align-items: center;
+  gap: 6px;
+  font-size: .62rem;
+  font-weight: 800;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__reset {
+  border: 1px solid var(--line);
+  width: 34px;
+  height: 34px;
+  color: var(--ink);
+  background: #fff;
+  border-radius: 9px;
+  flex-shrink: 0;
+  place-items: center;
+  display: grid;
+}
+
+.Explorer-module-scss-module__bIPC7q__body {
+  grid-template-columns: minmax(0, 1.7fr) minmax(180px, 1fr);
+  gap: 25px;
+  padding: 0 26px 20px;
+  display: grid;
+}
+
+.Explorer-module-scss-module__bIPC7q__visual {
+  min-width: 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__controls {
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  padding-top: 22px;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__control label {
+  justify-content: space-between;
+  gap: 10px;
+  font-size: .78rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__control output {
+  color: var(--green);
+  white-space: nowrap;
+}
+
+.Explorer-module-scss-module__bIPC7q__control input {
+  accent-color: var(--green);
+  cursor: ew-resize;
+  width: 100%;
+  min-height: 24px;
+  margin: 12px 0 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__range {
+  color: var(--muted);
+  justify-content: space-between;
+  font-size: .64rem;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 12px 0;
+  display: grid;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics > div {
+  text-align: center;
+  border-right: 1px solid var(--line);
+  min-width: 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics > div:last-child {
+  border: 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics small {
+  color: var(--muted);
+  font-size: .65rem;
+  display: block;
+}
+
+.Explorer-module-scss-module__bIPC7q__metrics strong {
+  font-variant-numeric: tabular-nums;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.Explorer-module-scss-module__bIPC7q__formula {
+  border-top: 1px solid var(--line);
+  padding: 0 18px;
+  font-size: .88rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__insight {
+  background: #f1f6e9;
+  gap: 10px;
+  padding: 13px 22px;
+  display: flex;
+}
+
+.Explorer-module-scss-module__bIPC7q__insight svg {
+  color: var(--green);
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.Explorer-module-scss-module__bIPC7q__insight p {
+  color: #455d4c;
+  margin: 0;
+  font-size: .79rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__roll {
+  margin: 0;
+  font-size: .8rem;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__body {
+  display: block;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__header {
+  padding: 18px 22px 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__header p {
+  display: none;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__controls {
+  padding-top: 16px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__control {
+  width: 100%;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__body {
+  padding: 0 22px 18px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__formula {
+  display: none;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__insight {
+  padding: 12px 20px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__visual svg {
+  max-height: 240px;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__metrics {
+  padding: 8px 0;
+}
+
+.Explorer-module-scss-module__bIPC7q__compact .Explorer-module-scss-module__bIPC7q__header h3 {
+  font-size: 1.12rem;
+}
+
+@media (max-width: 700px) {
+  .Explorer-module-scss-module__bIPC7q__body {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 0 18px 20px;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__header {
+    padding: 20px 18px 0;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__controls {
+    gap: 12px;
+    padding-top: 10px;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__metrics strong {
+    font-size: .95rem;
+  }
+
+  .Explorer-module-scss-module__bIPC7q__insight {
+    padding: 14px 18px;
+  }
+}
+
+/* [project]/src/components/forms/SubmissionForm.module.scss.module.css [app-client] (css) */
+.SubmissionForm-module-scss-module__AiZGVa__card {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__card h2 {
+  margin-bottom: 14px;
+  font-size: 1.8rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__card > p {
+  font-size: .9rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__card fieldset {
+  border: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+  display: grid;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field {
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  margin-bottom: 17px;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__grid .SubmissionForm-module-scss-module__AiZGVa__field {
+  margin: 0;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__grid {
+  margin-bottom: 18px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field label {
+  font-size: .77rem;
+  font-weight: 700;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field input, .SubmissionForm-module-scss-module__AiZGVa__field select, .SubmissionForm-module-scss-module__AiZGVa__field textarea {
+  border: 1px solid var(--line);
+  width: 100%;
+  min-width: 0;
+  color: var(--ink);
+  background: #fafbf7;
+  border-radius: 9px;
+  padding: 11px 12px;
+  font-size: .9rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field textarea {
+  resize: vertical;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__field [aria-invalid="true"] {
+  border-color: #b65d49;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__help {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: .7rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__error {
+  color: #a23727;
+  font-size: .73rem;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__context {
+  background: #edf3e6;
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-size: .78rem !important;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__context button {
+  color: var(--green);
+  background: none;
+  border: 0;
+  margin-left: 10px;
+  font-size: .7rem;
+  text-decoration: underline;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__consent {
+  color: var(--muted);
+  align-items: start;
+  gap: 9px;
+  font-size: .73rem;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__consent input {
+  accent-color: var(--green);
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__consent a {
+  text-decoration: underline;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__actions {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin: 22px 0 4px;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__actions span {
+  color: var(--muted);
+  align-items: center;
+  gap: 5px;
+  font-size: .69rem;
+  display: flex;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__trap {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent svg {
+  color: var(--green);
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent h3 {
+  margin: 14px 0 10px;
+}
+
+.SubmissionForm-module-scss-module__AiZGVa__sent p {
+  font-size: .85rem;
+}
+
+@media (max-width: 600px) {
+  .SubmissionForm-module-scss-module__AiZGVa__card {
+    padding: 22px 18px;
+  }
+
+  .SubmissionForm-module-scss-module__AiZGVa__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .SubmissionForm-module-scss-module__AiZGVa__card h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* [project]/src/components/decimals/DecimalExplorer.module.scss.module.css [app-client] (css) */
+.DecimalExplorer-module-scss-module__tVw5pa__explorer {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fff;
+  border-radius: 22px;
+  min-width: 0;
+  padding: clamp(18px, 4vw, 30px);
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__explorer h3 {
+  margin: 12px 0;
+  font-size: 1.4rem;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__explorer p {
+  line-height: 1.7;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices button {
+  color: #254a3b;
+  cursor: pointer;
+  font: inherit;
+  background: #f6f7f3;
+  border: 1px solid #d5dbd3;
+  border-radius: 30px;
+  padding: 10px 17px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices button[aria-pressed="true"] {
+  color: #fff;
+  background: #254a3b;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices button:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #9479cb;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__result {
+  overflow-wrap: anywhere;
+  background: #eee9fa;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__result strong {
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(1.1rem, 4vw, 1.8rem);
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__result p {
+  margin-bottom: 0;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__period {
+  text-decoration: overline;
+  text-decoration-thickness: 2px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__details {
+  margin: 24px 0;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__details summary {
+  cursor: pointer;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap {
+  overflow-x: auto;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: .85rem;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap th, .DecimalExplorer-module-scss-module__tVw5pa__tableWrap td {
+  text-align: left;
+  border-bottom: 1px solid #e4e8e1;
+  padding: 10px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap caption {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__cycle {
+  background: #edf4e4;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines label {
+  margin: 20px 0 8px;
+  display: block;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines input {
+  accent-color: #254a3b;
+  width: 100%;
+  min-height: 32px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  display: grid;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values div {
+  background: #f4f6ef;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values small, .DecimalExplorer-module-scss-module__tVw5pa__values strong {
+  overflow-wrap: anywhere;
+  display: block;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values strong {
+  font-variant-numeric: tabular-nums;
+  margin-top: 6px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__note {
+  background: #fff6dc;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+@media (max-width: 440px) {
+  .DecimalExplorer-module-scss-module__tVw5pa__values {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* [project]/src/app/aulas/[slug]/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__CLVMwG__page {
+  min-height: 70vh;
+}
+
+/*# sourceMappingURL=src_0fnzsn1122qk_._.css.map*/

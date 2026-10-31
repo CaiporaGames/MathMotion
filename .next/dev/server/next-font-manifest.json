@@ -1,9 +1,6 @@
 {
   "app": {
-    "[project]/src/app/aulas/page": [],
-    "[project]/src/app/explicacoes/page": [],
-    "[project]/src/app/laboratorio/[kind]/page": [],
-    "[project]/src/app/laboratorio/page": [],
+    "[project]/src/app/aulas/[slug]/page": [],
     "[project]/src/app/page": []
   },
   "appUsingSizeAdjust": false,

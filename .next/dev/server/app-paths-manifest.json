@@ -1,7 +1,4 @@
 {
-  "/aulas/page": "app/aulas/page.js",
-  "/explicacoes/page": "app/explicacoes/page.js",
-  "/laboratorio/[kind]/page": "app/laboratorio/[kind]/page.js",
-  "/laboratorio/page": "app/laboratorio/page.js",
+  "/aulas/[slug]/page": "app/aulas/[slug]/page.js",
   "/page": "app/page.js"
 }

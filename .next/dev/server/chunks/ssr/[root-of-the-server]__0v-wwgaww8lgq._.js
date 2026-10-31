@@ -103,7 +103,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$firebase$2f$firestore$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/firebase/firestore/dist/index.mjs [app-ssr] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$common$2d$BKJf2lb8$2e$node$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__b7__as__getFirestore$3e$__ = __turbopack_context__.i("[project]/node_modules/@firebase/firestore/dist/common-BKJf2lb8.node.mjs [app-ssr] (ecmascript) <export b7 as getFirestore>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$firebase$2f$app$2d$check$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/firebase/app-check/dist/index.mjs [app-ssr] (ecmascript) <locals>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$app$2d$check$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@firebase/app-check/dist/esm/index.esm.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$firebase$2d$config$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/firebase-config.ts [app-ssr] (ecmascript)");
 ;
 ;
@@ -115,11 +114,9 @@ function getFirebase() {
     if ("TURBOPACK compile-time truthy", 1) throw new Error('Firebase não configurado no navegador.');
     const app = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["getApps"])()[0] || (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["initializeApp"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$firebase$2d$config$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["firebaseConfig"]);
     if (!initialized) {
-        const key = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
-        if (key) (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$app$2d$check$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["initializeAppCheck"])(app, {
-            provider: new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$app$2d$check$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ReCaptchaV3Provider"](key),
-            isTokenAutoRefreshEnabled: true
-        });
+        const key = ("TURBOPACK compile-time value", "");
+        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+        ;
         initialized = true;
     }
     return {

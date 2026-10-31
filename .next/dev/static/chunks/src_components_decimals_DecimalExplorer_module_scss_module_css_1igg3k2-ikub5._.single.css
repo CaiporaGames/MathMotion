@@ -1,0 +1,159 @@
+/* [project]/src/components/decimals/DecimalExplorer.module.scss.module.css [app-client] (css) */
+.DecimalExplorer-module-scss-module__tVw5pa__explorer {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fff;
+  border-radius: 22px;
+  min-width: 0;
+  padding: clamp(18px, 4vw, 30px);
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__explorer h3 {
+  margin: 12px 0;
+  font-size: 1.4rem;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__explorer p {
+  line-height: 1.7;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices button {
+  color: #254a3b;
+  cursor: pointer;
+  font: inherit;
+  background: #f6f7f3;
+  border: 1px solid #d5dbd3;
+  border-radius: 30px;
+  padding: 10px 17px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices button[aria-pressed="true"] {
+  color: #fff;
+  background: #254a3b;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__choices button:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #9479cb;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__result {
+  overflow-wrap: anywhere;
+  background: #eee9fa;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__result strong {
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(1.1rem, 4vw, 1.8rem);
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__result p {
+  margin-bottom: 0;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__period {
+  text-decoration: overline;
+  text-decoration-thickness: 2px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__details {
+  margin: 24px 0;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__details summary {
+  cursor: pointer;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap {
+  overflow-x: auto;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: .85rem;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap th, .DecimalExplorer-module-scss-module__tVw5pa__tableWrap td {
+  text-align: left;
+  border-bottom: 1px solid #e4e8e1;
+  padding: 10px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__tableWrap caption {
+  text-align: left;
+  padding: 10px 0;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__cycle {
+  background: #edf4e4;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines label {
+  margin: 20px 0 8px;
+  display: block;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines input {
+  accent-color: #254a3b;
+  width: 100%;
+  min-height: 32px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__nines svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  display: grid;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values div {
+  background: #f4f6ef;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values small, .DecimalExplorer-module-scss-module__tVw5pa__values strong {
+  overflow-wrap: anywhere;
+  display: block;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__values strong {
+  font-variant-numeric: tabular-nums;
+  margin-top: 6px;
+}
+
+.DecimalExplorer-module-scss-module__tVw5pa__note {
+  background: #fff6dc;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+@media (max-width: 440px) {
+  .DecimalExplorer-module-scss-module__tVw5pa__values {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_components_decimals_DecimalExplorer_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

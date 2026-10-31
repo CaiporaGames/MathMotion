@@ -33,6 +33,7 @@ export type Lesson = {
   question: string;
   hints: string[];
   tool: ToolKind;
+  decimalExplorer?: boolean;
   toolConfig?: ToolConfig;
   steps: { title: string; text: string; formula?: string }[];
   takeaways: string[];

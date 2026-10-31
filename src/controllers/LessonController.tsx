@@ -5,6 +5,7 @@ import { useLearningStore } from '@/stores/learning.store';
 import { LessonView } from '@/components/lessons/LessonView';
 import { ExplorerController } from './ExplorerController';
 import { SubmissionController } from './SubmissionController';
+import { DecimalExplorerController } from './DecimalExplorerController';
 export function LessonController({ lesson }: { lesson: Lesson }) {
   const [step, setStep] = useState('');
   const completed = useLearningStore((s) => s.completed.includes(lesson.slug)),
@@ -26,7 +27,9 @@ export function LessonController({ lesson }: { lesson: Lesson }) {
       completed={completed}
       onComplete={() => toggle(lesson.slug)}
       onQuestion={ask}
-      explorer={<ExplorerController kind={lesson.tool} config={lesson.toolConfig} />}
+      explorer={lesson.decimalExplorer
+        ? <DecimalExplorerController />
+        : <ExplorerController kind={lesson.tool} config={lesson.toolConfig} />}
       form={
         <SubmissionController
           kind="question"
