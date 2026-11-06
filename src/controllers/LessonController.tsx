@@ -6,6 +6,8 @@ import { LessonView } from '@/components/lessons/LessonView';
 import { ExplorerController } from './ExplorerController';
 import { SubmissionController } from './SubmissionController';
 import { DecimalExplorerController } from './DecimalExplorerController';
+import { getLesson } from '@/services/content.service';
+import { PartitionController } from './PartitionController';
 import { SquareSequenceController } from './SquareSequenceController';
 export function LessonController({ lesson }: { lesson: Lesson }) {
   const [step, setStep] = useState('');
@@ -25,10 +27,16 @@ export function LessonController({ lesson }: { lesson: Lesson }) {
   return (
     <LessonView
       lesson={lesson}
+      relatedLessons={(lesson.relatedLessons ?? []).flatMap(slug => {
+        const related = getLesson(slug);
+        return related ? [{ slug: related.slug, title: related.title }] : [];
+      })}
       completed={completed}
       onComplete={() => toggle(lesson.slug)}
       onQuestion={ask}
-      explorer={lesson.sequenceExplorer
+      explorer={lesson.partitionExplorer
+        ? <PartitionController key={lesson.partitionExplorer} kind={lesson.partitionExplorer} />
+        : lesson.sequenceExplorer
         ? <SquareSequenceController />
         : lesson.decimalExplorer
         ? <DecimalExplorerController />

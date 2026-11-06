@@ -10,6 +10,7 @@ type Props = {
   onQuestion: (step: string) => void;
   explorer: React.ReactNode;
   form: React.ReactNode;
+  relatedLessons?: { slug: string; title: string }[];
 };
 export function LessonView({
   lesson: l,
@@ -18,6 +19,7 @@ export function LessonView({
   onQuestion,
   explorer,
   form,
+  relatedLessons = [],
 }: Props) {
   return (
     <div className={`container ${s.page}`}>
@@ -148,6 +150,15 @@ export function LessonView({
               {completed ? 'Concluída · marcar por fazer' : 'Concluir esta aula'}
             </button>
           </section>
+          {!!relatedLessons.length && (
+            <section className={s.block} aria-label="Aulas relacionadas">
+              <span className="eyebrow">CONTINUA A DESCOBERTA</span>
+              <h2>Da área ao volume.</h2>
+              {relatedLessons.map(related => (
+                <p key={related.slug}><Link className="button" href={`/aulas/${related.slug}/`}>{related.title} →</Link></p>
+              ))}
+            </section>
+          )}
           <section id="pergunta" className={s.block}>
             {form}
           </section>

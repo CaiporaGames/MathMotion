@@ -3,10 +3,10 @@
   "/_global-error/page": "/_global-error",
   "/page": "/",
   "/aulas/page": "/aulas",
-  "/aulas/[slug]/page": "/aulas/[slug]",
-  "/explicacoes/page": "/explicacoes",
   "/admin/page": "/admin",
+  "/aulas/[slug]/page": "/aulas/[slug]",
   "/laboratorio/page": "/laboratorio",
   "/laboratorio/[kind]/page": "/laboratorio/[kind]",
+  "/explicacoes/page": "/explicacoes",
   "/privacidade/page": "/privacidade"
 }

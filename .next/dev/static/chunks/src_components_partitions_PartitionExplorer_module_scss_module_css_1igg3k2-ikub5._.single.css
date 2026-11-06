@@ -1,0 +1,136 @@
+/* [project]/src/components/partitions/PartitionExplorer.module.scss.module.css [app-client] (css) */
+.PartitionExplorer-module-scss-module__7iXWdW__explorer {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 22px;
+  min-width: 0;
+  padding: clamp(16px, 3vw, 28px);
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__explorer header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__explorer h3 {
+  margin: 18px 0;
+  font-size: 1.4rem;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__explorer button {
+  font: inherit;
+  color: #254a3b;
+  cursor: pointer;
+  background: #f4f6ef;
+  border: 1px solid #d8dfd2;
+  border-radius: 12px;
+  padding: 9px 12px;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__explorer button[aria-pressed="true"] {
+  color: #fff;
+  background: #254a3b;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__explorer button:focus-visible, .PartitionExplorer-module-scss-module__7iXWdW__explorer input:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #9874c4;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__tabs, .PartitionExplorer-module-scss-module__7iXWdW__pieces {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+  display: flex;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__pieces span {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__body {
+  grid-template-columns: minmax(0, 1.5fr) minmax(170px, 1fr);
+  align-items: center;
+  gap: 18px;
+  display: grid;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__body svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__control {
+  margin: 16px 0;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__control label {
+  justify-content: space-between;
+  gap: 10px;
+  font-size: .85rem;
+  display: flex;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__control input {
+  accent-color: #254a3b;
+  width: 100%;
+  min-height: 30px;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__metrics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  display: grid;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__metrics div {
+  background: #f2f6ec;
+  border-radius: 12px;
+  padding: 13px;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__metrics dt {
+  font-size: .75rem;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__metrics dd {
+  overflow-wrap: anywhere;
+  margin: 6px 0 0;
+  font-size: 1.12rem;
+  font-weight: 800;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__formula {
+  overflow-x: auto;
+}
+
+.PartitionExplorer-module-scss-module__7iXWdW__note {
+  background: #eee9f8;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: .85rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .PartitionExplorer-module-scss-module__7iXWdW__body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 440px) {
+  .PartitionExplorer-module-scss-module__7iXWdW__metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_components_partitions_PartitionExplorer_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

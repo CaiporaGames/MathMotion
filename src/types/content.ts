@@ -35,6 +35,8 @@ export type Lesson = {
   tool: ToolKind;
   decimalExplorer?: boolean;
   sequenceExplorer?: boolean;
+  partitionExplorer?: 'square' | 'cube';
+  relatedLessons?: string[];
   toolConfig?: ToolConfig;
   steps: { title: string; text: string; formula?: string }[];
   takeaways: string[];

@@ -1500,7 +1500,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$lessons
 ;
 ;
 ;
-function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, form }) {
+function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, form, relatedLessons = [] }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `container ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$lessons$2f$LessonView$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].page}`,
         children: [
@@ -1512,14 +1512,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                         size: 16
                     }, void 0, false, {
                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                        lineNumber: 25,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     " Todas as aulas"
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                lineNumber: 24,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -1535,7 +1535,7 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: l.topic
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 30,
+                                        lineNumber: 32,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1549,27 +1549,27 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 29,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 children: l.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 35,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: l.subtitle
                             }, void 0, false, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 36,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1581,19 +1581,19 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         size: 16
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 40,
                                         columnNumber: 35
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 37,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1603,13 +1603,13 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                         height: "440"
                     }, void 0, false, {
                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                        lineNumber: 41,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                lineNumber: 27,
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1622,7 +1622,7 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                 children: "O TEU PERCURSO"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 45,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1660,19 +1660,19 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                 children: n
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 55,
+                                                lineNumber: 57,
                                                 columnNumber: 17
                                             }, this),
                                             title
                                         ]
                                     }, id, true, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 46,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1683,13 +1683,13 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         size: 17
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 63,
                                         columnNumber: 26
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Check$3e$__["Check"], {
                                         size: 17
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 63,
                                         columnNumber: 55
                                     }, this),
                                     ' ',
@@ -1697,20 +1697,20 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 60,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Progresso guardado só neste dispositivo."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 64,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1725,7 +1725,7 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: "01 · O PROBLEMA"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1733,14 +1733,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                             "Antes da fórmula,",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 71,
+                                                lineNumber: 73,
                                                 columnNumber: 15
                                             }, this),
                                             "uma pergunta."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1748,7 +1748,7 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: l.problem
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 76,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1758,27 +1758,27 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                 size: 22
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 78,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: l.question
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 77,
+                                                lineNumber: 79,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         children: "Precisas de uma pista?"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this),
                                     l.hints.map((hint, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -1791,26 +1791,26 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 84,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: hint
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, hint, true, {
                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 67,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1822,14 +1822,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: "02 · EXPERIMENTA"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, this),
                                     explorer
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 87,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1841,14 +1841,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: "03 · PASSO A PASSO"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "Vamos construir a resposta."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, this),
                                     l.steps.map((step, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -1860,7 +1860,7 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                     children: i + 1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 98,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1869,14 +1869,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                             children: step.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 98,
+                                                            lineNumber: 100,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: step.text
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 99,
+                                                            lineNumber: 101,
                                                             columnNumber: 19
                                                         }, this),
                                                         step.formula && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1885,12 +1885,12 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                                 value: step.formula
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                                lineNumber: 102,
+                                                                lineNumber: 104,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 103,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1901,32 +1901,32 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                                     size: 14
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                                    lineNumber: 106,
+                                                                    lineNumber: 108,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 " Tenho uma dúvida neste passo"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 105,
+                                                            lineNumber: 107,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 99,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, step.title, true, {
                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 97,
                                             columnNumber: 15
                                         }, this))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 91,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1938,14 +1938,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: "04 · IDEIAS PARA GUARDAR"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 115,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "Leva estas ideias contigo."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1955,31 +1955,31 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                         size: 18
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                        lineNumber: 118,
+                                                        lineNumber: 120,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: t
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 121,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, t, true, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 119,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 115,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 112,
+                                lineNumber: 114,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1991,7 +1991,7 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                         children: "05 · AGORA TENTA TU"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 127,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1999,14 +1999,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                             "Uma pequena mudança.",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 130,
                                                 columnNumber: 15
                                             }, this),
                                             "Um novo problema."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 128,
                                         columnNumber: 13
                                     }, this),
                                     l.exercises.map((e, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -2020,14 +2020,14 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 135,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: e.question
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 136,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -2037,20 +2037,20 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                             children: "Uma pista"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 136,
+                                                            lineNumber: 138,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: e.hint
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 137,
+                                                            lineNumber: 139,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 137,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
@@ -2060,33 +2060,33 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                             children: "Ver resposta e explicação"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 140,
+                                                            lineNumber: 142,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: e.answer
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 141,
+                                                            lineNumber: 143,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: e.explanation
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                            lineNumber: 142,
+                                                            lineNumber: 144,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                    lineNumber: 139,
+                                                    lineNumber: 141,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, e.question, true, {
                                             fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 134,
                                             columnNumber: 15
                                         }, this)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2097,21 +2097,64 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                                 size: 17
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 149,
                                                 columnNumber: 15
                                             }, this),
                                             completed ? 'Concluída · marcar por fazer' : 'Concluir esta aula'
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 148,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 124,
+                                lineNumber: 126,
                                 columnNumber: 11
+                            }, this),
+                            !!relatedLessons.length && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$lessons$2f$LessonView$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].block,
+                                "aria-label": "Aulas relacionadas",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "eyebrow",
+                                        children: "CONTINUA A DESCOBERTA"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/lessons/LessonView.tsx",
+                                        lineNumber: 155,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        children: "Da área ao volume."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/lessons/LessonView.tsx",
+                                        lineNumber: 156,
+                                        columnNumber: 15
+                                    }, this),
+                                    relatedLessons.map((related)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                className: "button",
+                                                href: `/aulas/${related.slug}/`,
+                                                children: [
+                                                    related.title,
+                                                    " →"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/lessons/LessonView.tsx",
+                                                lineNumber: 158,
+                                                columnNumber: 39
+                                            }, this)
+                                        }, related.slug, false, {
+                                            fileName: "[project]/src/components/lessons/LessonView.tsx",
+                                            lineNumber: 158,
+                                            columnNumber: 17
+                                        }, this))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/lessons/LessonView.tsx",
+                                lineNumber: 154,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                 id: "pergunta",
@@ -2119,25 +2162,25 @@ function LessonView({ lesson: l, completed, onComplete, onQuestion, explorer, fo
                                 children: form
                             }, void 0, false, {
                                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                                lineNumber: 151,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/lessons/LessonView.tsx",
-                        lineNumber: 66,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/lessons/LessonView.tsx",
-                lineNumber: 43,
+                lineNumber: 45,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/lessons/LessonView.tsx",
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
@@ -2956,84 +2999,6 @@ function ExplorerController({ kind, config = {}, compact = false }) {
     }, void 0, false, {
         fileName: "[project]/src/controllers/ExplorerController.tsx",
         lineNumber: 44,
-        columnNumber: 5
-    }, this);
-}
-}),
-"[project]/src/controllers/LessonController.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "LessonController",
-    ()=>LessonController
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$stores$2f$learning$2e$store$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/stores/learning.store.ts [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$lessons$2f$LessonView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/lessons/LessonView.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$ExplorerController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/controllers/ExplorerController.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$SubmissionController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/controllers/SubmissionController.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$DecimalExplorerController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/controllers/DecimalExplorerController.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$SquareSequenceController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/controllers/SquareSequenceController.tsx [app-ssr] (ecmascript)");
-'use client';
-;
-;
-;
-;
-;
-;
-;
-;
-function LessonController({ lesson }) {
-    const [step, setStep] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
-    const completed = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$stores$2f$learning$2e$store$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLearningStore"])((s)=>s.completed.includes(lesson.slug)), toggle = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$stores$2f$learning$2e$store$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLearningStore"])((s)=>s.toggle);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        void __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$stores$2f$learning$2e$store$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLearningStore"].persist.rehydrate();
-    }, []);
-    function ask(value) {
-        setStep(value);
-        document.getElementById('pergunta')?.scrollIntoView({
-            behavior: 'smooth'
-        });
-        setTimeout(()=>document.getElementById('question-message')?.focus({
-                preventScroll: true
-            }), 250);
-    }
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$lessons$2f$LessonView$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LessonView"], {
-        lesson: lesson,
-        completed: completed,
-        onComplete: ()=>toggle(lesson.slug),
-        onQuestion: ask,
-        explorer: lesson.sequenceExplorer ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$SquareSequenceController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SquareSequenceController"], {}, void 0, false, {
-            fileName: "[project]/src/controllers/LessonController.tsx",
-            lineNumber: 32,
-            columnNumber: 11
-        }, this) : lesson.decimalExplorer ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$DecimalExplorerController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DecimalExplorerController"], {}, void 0, false, {
-            fileName: "[project]/src/controllers/LessonController.tsx",
-            lineNumber: 34,
-            columnNumber: 11
-        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$ExplorerController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ExplorerController"], {
-            kind: lesson.tool,
-            config: lesson.toolConfig
-        }, void 0, false, {
-            fileName: "[project]/src/controllers/LessonController.tsx",
-            lineNumber: 35,
-            columnNumber: 11
-        }, this),
-        form: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$controllers$2f$SubmissionController$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SubmissionController"], {
-            kind: "question",
-            lessonSlug: lesson.slug,
-            lessonTitle: lesson.title,
-            step: step,
-            onStepChange: setStep
-        }, void 0, false, {
-            fileName: "[project]/src/controllers/LessonController.tsx",
-            lineNumber: 37,
-            columnNumber: 9
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/controllers/LessonController.tsx",
-        lineNumber: 26,
         columnNumber: 5
     }, this);
 }
@@ -4048,6 +4013,12 @@ __turbopack_context__.v({
   "sum": "SquareSequenceExplorer-module-scss-module__6uwdcW__sum",
   "tableWrap": "SquareSequenceExplorer-module-scss-module__6uwdcW__tableWrap",
 });
+}),
+"[project]/src/controllers/LessonController.tsx [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+var e = new Error("Could not parse module '[project]/src/controllers/LessonController.tsx'\n\nExpected '}', got 'ident'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 ];
 

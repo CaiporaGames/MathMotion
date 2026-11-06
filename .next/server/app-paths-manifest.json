@@ -3,10 +3,10 @@
   "/_global-error/page": "app/_global-error/page.js",
   "/page": "app/page.js",
   "/aulas/page": "app/aulas/page.js",
-  "/aulas/[slug]/page": "app/aulas/[slug]/page.js",
-  "/explicacoes/page": "app/explicacoes/page.js",
   "/admin/page": "app/admin/page.js",
+  "/aulas/[slug]/page": "app/aulas/[slug]/page.js",
   "/laboratorio/page": "app/laboratorio/page.js",
   "/laboratorio/[kind]/page": "app/laboratorio/[kind]/page.js",
+  "/explicacoes/page": "app/explicacoes/page.js",
   "/privacidade/page": "app/privacidade/page.js"
 }

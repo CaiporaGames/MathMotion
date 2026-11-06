@@ -1,0 +1,129 @@
+{
+  "slug": "volume-piramide-cubo",
+  "title": "Seis pirâmides dentro de um cubo",
+  "subtitle": "Reconstrói o fator 1/3 a partir de um sólido cujo volume já conheces.",
+  "topic": "Geometria",
+  "years": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "minutes": 30,
+  "image": "/images/cube-partition.svg",
+  "imageAlt": "Diagrama geométrico da decomposição em partes congruentes.",
+  "accent": "purple",
+  "date": "2026-11-01",
+  "problem": "Um cubo tem aresta 6 cm. Liga o centro aos oito vértices e considera as seis pirâmides que têm vértice no centro e bases nas seis faces do cubo. Qual é o volume de cada uma? Usa esta construção para investigar a fórmula do volume de uma pirâmide.",
+  "question": "Há oito segmentos até aos vértices, mas seis pirâmides. O que determina a quantidade de pirâmides: os vértices do cubo ou as suas faces?",
+  "hints": [
+    "O cubo tem seis faces. Cada face é a base de uma pirâmide com vértice comum no centro.",
+    "As seis pirâmides são congruentes e preenchem o cubo. A altura perpendicular de cada uma é a/2.",
+    "Escreve a³/6 como a²(a/2)/3. O que representa a²?"
+  ],
+  "tool": "volume",
+  "partitionExplorer": "cube",
+  "relatedLessons": [
+    "area-triangulo-quadrado"
+  ],
+  "steps": [
+    {
+      "title": "Primeiro, acertar as grandezas",
+      "text": "Um triângulo é uma figura plana: calculamos a sua área. Aqui o sólido é uma pirâmide de base quadrada: calculamos o seu volume. Usaremos A_b para a área da base e V para o volume. Num cubo de aresta a, o volume é a³.",
+      "formula": "V_{\\text{cubo}}=a^3\\qquad 6^3=216\\ \\mathrm{cm}^3"
+    },
+    {
+      "title": "Oito segmentos, seis pirâmides",
+      "text": "Liga o centro aos oito vértices. Cada face quadrada, juntamente com o centro, determina uma pirâmide. Há seis faces e, por isso, seis pirâmides. Os oito segmentos são arestas partilhadas. Para visualizar as separações, imagina também as faces triangulares que unem o centro a cada aresta do cubo: os segmentos, sozinhos, não são superfícies de corte."
+    },
+    {
+      "title": "Por que os volumes são iguais?",
+      "text": "As simetrias do cubo levam qualquer face a qualquer outra, mantendo o centro fixo. Assim, as seis pirâmides são congruentes e têm volumes iguais. Preenchem o cubo sem sobreposições interiores: partilham apenas fronteiras. Logo, o volume de uma é um sexto do volume total.",
+      "formula": "6V_{\\text{pirâmide}}=a^3\\quad\\Longrightarrow\\quad V_{\\text{pirâmide}}=\\frac{a^3}{6}"
+    },
+    {
+      "title": "Encontrar a altura certa",
+      "text": "A base de cada pirâmide é uma face do cubo, com área a². A altura é a distância perpendicular do centro ao plano dessa face: a/2. Não é o segmento inclinado até a um vértice, nem a apótema de uma face lateral.",
+      "formula": "A_b=a^2,\\qquad h=\\frac a2"
+    },
+    {
+      "title": "Reorganizar e reconhecer a fórmula",
+      "text": "Decompomos 6 em 2 × 3. Agrupamos a/2, que é a altura, e a², que é a área da base. O fator um terço aparece ao reescrever o volume obtido por decomposição.",
+      "formula": "V=\\frac{a^3}{6}=\\frac{a^2\\left(\\frac a2\\right)}3=\\frac{A_bh}{3}"
+    },
+    {
+      "title": "Aplicar ao cubo de 6 cm",
+      "text": "A área da base é 36 cm² e a altura de cada pirâmide é 3 cm. Cada volume é 36 cm³. Multiplicar por seis devolve os 216 cm³ do cubo. As unidades são cúbicas, pois multiplicamos uma área por um comprimento.",
+      "formula": "V=\\frac{216}{6}=\\frac{36\\cdot3}{3}=36\\ \\mathrm{cm}^3"
+    },
+    {
+      "title": "O cuidado com a generalização",
+      "text": "A expressão a³/6 só foi provada para as pirâmides desta divisão do cubo, em que h = a/2. A expressão ha²/3 usa uma base quadrada de lado a. Para uma base qualquer, devemos escrever A_bh/3. Observar o formato da expressão sugere a regra geral, mas não é, por si só, uma prova para todas as pirâmides."
+    },
+    {
+      "title": "Primeira extensão: outra altura com base quadrada",
+      "text": "Podemos esticar ou comprimir uma destas pirâmides na direção perpendicular à base, mantendo a base fixa. Se a altura é multiplicada por um fator t, o volume também é multiplicado por t, tal como acontece com camadas de igual área cuja espessura é multiplicada por t. Assim, V = A_bh/3 continua a valer para uma pirâmide reta de base quadrada com qualquer altura positiva."
+    },
+    {
+      "title": "Por que também vale para outras bases?",
+      "text": "Uma justificação usa o princípio de Cavalieri: sólidos com a mesma altura e a mesma área de secção a cada nível têm o mesmo volume. Numa pirâmide, uma secção paralela à base, à distância z do vértice, é semelhante à base com fator linear z/h; a sua área é A_b(z/h)². Duas pirâmides com a mesma área de base e altura têm, portanto, secções de áreas iguais em todos os níveis, mesmo que as bases tenham formas diferentes ou o vértice esteja deslocado lateralmente.",
+      "formula": "A(z)=A_b\\left(\\frac zh\\right)^2,\\qquad 0\\leq z\\leq h"
+    },
+    {
+      "title": "A fórmula geral, com a justificação completa",
+      "text": "Compara a pirâmide pretendida com uma pirâmide de base quadrada de igual área de base e igual altura. A primeira extensão deu o volume da pirâmide quadrada; Cavalieri mostra que os volumes são iguais. Concluímos a fórmula para pirâmides com base poligonal plana e vértice fora do seu plano. O princípio de Cavalieri é um resultado geométrico adicional que estamos a usar, não algo demonstrado apenas pelo desenho do cubo.",
+      "formula": "\\boxed{V_{\\text{pirâmide}}=\\frac{A_bh}{3}}"
+    },
+    {
+      "title": "O fator um terço não muda quando a altura muda",
+      "text": "Na ferramenta, passa de “Cubo dividido” a “Pirâmide independente”. Mantém a base e altera apenas a altura. A relação h = a/2 deixa de ser obrigatória; a³/6 deixa de calcular o volume. Continua a valer A_bh/3. Para uma base quadrada de lado 6 cm e altura 9 cm, por exemplo, o volume é 108 cm³.",
+      "formula": "V=\\frac{6^2\\cdot9}{3}=108\\ \\mathrm{cm}^3"
+    }
+  ],
+  "takeaways": [
+    "Um triângulo tem área; uma pirâmide tem volume.",
+    "O centro e as seis faces do cubo definem seis pirâmides congruentes.",
+    "A altura é a distância perpendicular do vértice ao plano da base.",
+    "a³/6 depende da divisão do cubo; a²h/3 serve para base quadrada de lado a.",
+    "A fórmula geral é A_bh/3: primeiro calcula a área da base.",
+    "Para estender o resultado a todas as pirâmides, usamos um argumento adicional, como secções semelhantes e Cavalieri."
+  ],
+  "exercises": [
+    {
+      "question": "Um cubo tem aresta 10 cm. Qual é o volume de cada pirâmide central?",
+      "hint": "Divide o volume do cubo por seis.",
+      "answer": "500/3 cm³, aproximadamente 166,67 cm³.",
+      "explanation": "1000/6 = 500/3. A base tem área 100 e a altura é 5, logo 100 × 5/3."
+    },
+    {
+      "question": "Uma pirâmide tem base quadrada de lado 10 cm e altura 9 cm. Podemos usar 10³/6?",
+      "hint": "Compara 9 com metade da aresta 10.",
+      "answer": "Não. O volume é 300 cm³.",
+      "explanation": "A altura não é 5 cm. Usamos 10² × 9/3 = 300."
+    },
+    {
+      "question": "A base é um retângulo de lados 4 cm e 7 cm; a altura da pirâmide é 6 cm. Qual é o volume?",
+      "hint": "Calcula primeiro a área da base.",
+      "answer": "56 cm³.",
+      "explanation": "A_b = 4 × 7 = 28 cm². V = 28 × 6/3 = 56 cm³."
+    },
+    {
+      "question": "Uma pirâmide tem base triangular de base 6 cm e altura 4 cm. A altura da pirâmide é 9 cm. Qual é o volume?",
+      "hint": "Há duas alturas diferentes: uma do triângulo da base e outra do sólido.",
+      "answer": "36 cm³.",
+      "explanation": "A base tem área 6 × 4/2 = 12 cm². O volume é 12 × 9/3 = 36 cm³."
+    },
+    {
+      "question": "Se duplicarmos só a altura de uma pirâmide, o volume duplica ou fica oito vezes maior?",
+      "hint": "A área da base mantém-se.",
+      "answer": "Duplica.",
+      "explanation": "Só um fator foi duplicado: V = A_bh/3. O volume seria oito vezes maior se todas as dimensões lineares duplicassem."
+    },
+    {
+      "question": "Escolher um ponto fora do centro, mas dentro do cubo, ainda dá seis volumes iguais?",
+      "hint": "As distâncias do ponto aos planos das faces continuam todas iguais?",
+      "answer": "Em geral, não.",
+      "explanation": "As seis pirâmides continuam a preencher o cubo, mas as alturas variam. Por isso não podemos dividir o volume por seis para calcular cada uma."
+    }
+  ]
+}
