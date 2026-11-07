@@ -45,6 +45,14 @@
       "namedRegex": "^/aulas/(?<nxtPslug>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/descobertas/[slug]",
+      "regex": "^/descobertas/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/descobertas/(?<nxtPslug>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/laboratorio/[kind]",
       "regex": "^/laboratorio/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -83,6 +91,12 @@
       "regex": "^/aulas(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/aulas(?:/)?$"
+    },
+    {
+      "page": "/descobertas",
+      "regex": "^/descobertas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/descobertas(?:/)?$"
     },
     {
       "page": "/explicacoes",

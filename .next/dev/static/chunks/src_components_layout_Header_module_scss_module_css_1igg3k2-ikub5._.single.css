@@ -98,4 +98,30 @@
   }
 }
 
+@media (max-width: 760px) {
+  .Header-module-scss-module__rIun6a__inner {
+    flex-wrap: wrap;
+    gap: 12px;
+    height: auto;
+    min-height: 104px;
+    padding-block: 12px;
+  }
+
+  .Header-module-scss-module__rIun6a__inner nav {
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    font-size: .75rem;
+  }
+
+  .Header-module-scss-module__rIun6a__contact {
+    border: 0;
+    padding: 0;
+  }
+
+  .Header-module-scss-module__rIun6a__contact svg {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=src_components_layout_Header_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

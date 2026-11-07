@@ -1,6 +1,7 @@
 {
   "projects": {
-    "mathmotion": "mathmotion-860ce"
+    "mathmotion": "mathmotion-860ce",
+    "descobertas": "mathmotion-860ce"
   },
   "targets": {},
   "etags": {}

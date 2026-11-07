@@ -1,0 +1,50 @@
+.lab { border: 1px solid #c8dac7; border-radius: 20px; padding: clamp(16px, 3vw, 28px); background: #f5f8ef; min-width: 0; margin: 28px 0 18px; }
+.labHeading { display: flex; justify-content: space-between; gap: 12px; color: var(--green); font-size: .72rem; font-weight: 800; letter-spacing: .09em; margin-bottom: 16px; }
+.lab p { font-size: .94rem; }
+.lab h4 { font-size: .94rem; margin: 20px 0 10px; }
+.controls { display: flex; flex-wrap: wrap; gap: 14px; margin: 22px 0; }
+.controls label { display: grid; gap: 7px; font-size: .78rem; font-weight: 700; min-width: 0; max-width: 100%; }
+.controls select { max-width: 100%; padding: 10px; color: var(--ink); background: white; border: 1px solid #bfcfbd; border-radius: 9px; font-size: .86rem; }
+.scroll { overflow-x: auto; padding: 5px 4px 12px; max-width: 100%; }
+.matrix { width: 100%; border-spacing: 5px; font-size: .9rem; }
+.matrix th { min-width: 28px; font-size: .8rem; }
+.matrix td { padding: 0; }
+.cell { min-width: 94px; width: 100%; min-height: 66px; border: 1px solid #abc8ac; border-radius: 8px; color: #244a36; background: #e5f2dc; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 8px 4px; gap: 4px; font-weight: 700; white-space: nowrap; }
+.cell small { font-size: .57rem; font-weight: 400; }
+.valid, .single { background: #e5f2dc; }
+.paired { background: #dcefe7; }
+.excluded { color: #626866; background: #eeefeb; border-style: dashed; border-color: #aeb5ad; }
+.excluded > span { text-decoration: line-through; }
+.equivalent { background: #f7e9cf; color: #785413; border-color: #cbb482; }
+.diagonal { background: #e1eafa; color: #334c7e; border-color: #99b4dc; }
+.highlighted { outline: 3px solid #6754a8; outline-offset: -3px; }
+.cell:focus-visible { outline: 3px solid #6754a8; outline-offset: 2px; }
+.planes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.plane { min-width: 0; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+.stats > div { flex: 1 1 100px; background: #fff; padding: 13px; border: 1px solid var(--line); border-radius: 10px; }
+.stats strong { display: block; font-size: 1.4rem; overflow-wrap: anywhere; }
+.stats span { display: block; color: #52675a; font-size: .74rem; line-height: 1.4; margin-top: 4px; }
+.lab .note { font-size: .8rem; margin: 16px 0 0; }
+.selection { border-left: 3px solid #6754a8; background: #eee9f7; padding: 13px; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.word { padding: 6px 9px; border: 1px solid #cbd8c7; border-radius: 8px; font: .85rem/1.4 monospace; background: white; }
+.factor { display: grid; min-width: 82px; padding: 12px; border-radius: 9px; background: #e4efd5; font-size: .76rem; }
+.factor strong { font-size: 1.7rem; }
+.bits { display: flex; flex-wrap: wrap; gap: 10px; }
+.bits button { flex: 1 1 65px; max-width: 125px; padding: 15px; background: #fff; border: 1px solid #c2cebd; border-radius: 14px; color: var(--ink); }
+.bits strong, .bits small { display: block; }
+.bits strong { font-size: 2rem; }
+.bits small { font-size: .68rem; }
+.bits .included { background: #d7ed91; border-color: #587e36; }
+.pascalPanel { margin-top: 25px; border-top: 1px solid var(--line); padding-top: 20px; }
+.pascal { min-width: 500px; padding: 8px 4px; }
+.pascalRow { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.pascalRow > div { flex: 1; display: flex; justify-content: center; gap: 4px; }
+.pascalRow button { width: 40px; min-height: 43px; background: #fff; color: var(--ink); border: 1px solid #c5d2bf; border-radius: 7px; font-size: .85rem; }
+.pascalRow small { display: block; font-size: .46rem; }
+.pascalRow .chosen { background: #d7ed91; outline: 2px solid #496b38; }
+.pascalRow .parent { background: #f7e9cf; border-color: #ac813b; }
+.rowLabel, .rowSum { font-size: .7rem; min-width: 42px; }
+.rowSum { min-width: 65px; text-align: right; }
+@media(max-width: 680px) { .planes { grid-template-columns: 1fr; } .cell { min-width: 75px; font-size: .78rem; } .controls label { width: 100%; } }

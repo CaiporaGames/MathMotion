@@ -58,3 +58,6 @@
     width: 100%;
   }
 }
+
+.links { flex-wrap: wrap; }
+@media (max-width: 760px) { .row { flex-wrap: wrap; } }

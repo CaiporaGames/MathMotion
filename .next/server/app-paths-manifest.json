@@ -5,8 +5,10 @@
   "/aulas/page": "app/aulas/page.js",
   "/admin/page": "app/admin/page.js",
   "/aulas/[slug]/page": "app/aulas/[slug]/page.js",
-  "/laboratorio/page": "app/laboratorio/page.js",
-  "/laboratorio/[kind]/page": "app/laboratorio/[kind]/page.js",
+  "/descobertas/[slug]/page": "app/descobertas/[slug]/page.js",
+  "/descobertas/page": "app/descobertas/page.js",
   "/explicacoes/page": "app/explicacoes/page.js",
+  "/laboratorio/[kind]/page": "app/laboratorio/[kind]/page.js",
+  "/laboratorio/page": "app/laboratorio/page.js",
   "/privacidade/page": "app/privacidade/page.js"
 }

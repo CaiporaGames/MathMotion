@@ -1,0 +1,11 @@
+.text { font-size: 1.04rem; line-height: 1.85; overflow-wrap: break-word; }
+.text p, .text li { color: #41564a; }
+.text p { margin: 0 0 20px; }
+.text strong { color: var(--ink); }
+.text blockquote { margin: 24px 0; border-left: 3px solid #678c55; padding: 16px 22px; background: #f3f6ed; border-radius: 0 12px 12px 0; }
+.text blockquote p:last-child { margin-bottom: 0; }
+.text h3 { font-size: 1.25rem; margin: 30px 0 16px; }
+.text ul, .text ol { padding-left: 24px; }
+.text li { padding-left: 5px; margin: 12px 0; }
+.formula { overflow-x: auto; max-width: 100%; background: #f5f6f0; padding: 6px 14px; border-radius: 10px; margin: 20px 0; font-size: .98rem; }
+@media(max-width: 600px) { .text { font-size: .97rem; } .text blockquote { padding: 14px; } .formula { font-size: .85rem; } }

@@ -1610,6 +1610,32 @@ body {
   }
 }
 
+@media (max-width: 760px) {
+  .Header-module-scss-module__rIun6a__inner {
+    flex-wrap: wrap;
+    gap: 12px;
+    height: auto;
+    min-height: 104px;
+    padding-block: 12px;
+  }
+
+  .Header-module-scss-module__rIun6a__inner nav {
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    font-size: .75rem;
+  }
+
+  .Header-module-scss-module__rIun6a__contact {
+    border: 0;
+    padding: 0;
+  }
+
+  .Header-module-scss-module__rIun6a__contact svg {
+    display: none;
+  }
+}
+
 /* [project]/src/components/layout/Footer.module.scss.module.css [app-client] (css) */
 .Footer-module-scss-module__JLT4gq__footer {
   border-top: 1px solid var(--line);
@@ -1680,6 +1706,16 @@ body {
 
   .Footer-module-scss-module__JLT4gq__bottom span {
     width: 100%;
+  }
+}
+
+.Footer-module-scss-module__JLT4gq__links {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+  .Footer-module-scss-module__JLT4gq__row {
+    flex-wrap: wrap;
   }
 }
 

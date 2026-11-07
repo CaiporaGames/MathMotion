@@ -1,0 +1,70 @@
+/* [project]/src/components/discoveries/ArticleText.module.scss.module.css [app-client] (css) */
+.ArticleText-module-scss-module__fquLBG__text {
+  overflow-wrap: break-word;
+  font-size: 1.04rem;
+  line-height: 1.85;
+}
+
+.ArticleText-module-scss-module__fquLBG__text p, .ArticleText-module-scss-module__fquLBG__text li {
+  color: #41564a;
+}
+
+.ArticleText-module-scss-module__fquLBG__text p {
+  margin: 0 0 20px;
+}
+
+.ArticleText-module-scss-module__fquLBG__text strong {
+  color: var(--ink);
+}
+
+.ArticleText-module-scss-module__fquLBG__text blockquote {
+  background: #f3f6ed;
+  border-left: 3px solid #678c55;
+  border-radius: 0 12px 12px 0;
+  margin: 24px 0;
+  padding: 16px 22px;
+}
+
+.ArticleText-module-scss-module__fquLBG__text blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.ArticleText-module-scss-module__fquLBG__text h3 {
+  margin: 30px 0 16px;
+  font-size: 1.25rem;
+}
+
+.ArticleText-module-scss-module__fquLBG__text ul, .ArticleText-module-scss-module__fquLBG__text ol {
+  padding-left: 24px;
+}
+
+.ArticleText-module-scss-module__fquLBG__text li {
+  margin: 12px 0;
+  padding-left: 5px;
+}
+
+.ArticleText-module-scss-module__fquLBG__formula {
+  background: #f5f6f0;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 20px 0;
+  padding: 6px 14px;
+  font-size: .98rem;
+  overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+  .ArticleText-module-scss-module__fquLBG__text {
+    font-size: .97rem;
+  }
+
+  .ArticleText-module-scss-module__fquLBG__text blockquote {
+    padding: 14px;
+  }
+
+  .ArticleText-module-scss-module__fquLBG__formula {
+    font-size: .85rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_discoveries_ArticleText_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -71,4 +71,14 @@
   }
 }
 
+.Footer-module-scss-module__JLT4gq__links {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+  .Footer-module-scss-module__JLT4gq__row {
+    flex-wrap: wrap;
+  }
+}
+
 /*# sourceMappingURL=src_components_layout_Footer_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

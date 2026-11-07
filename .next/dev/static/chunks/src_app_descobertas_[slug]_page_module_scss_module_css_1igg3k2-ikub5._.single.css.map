@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Documents/GitHub/MathMotion/src/app/descobertas/[slug]/page.module.scss","turbopack:///C:/Users/darag/Documents/GitHub/MathMotion/src/app/descobertas/%5Bslug%5D/page.module.scss"],"sourcesContent":[".page { min-width: 0; }\n",".page {\n  min-width: 0;\n}"],"names":[],"mappings":"AAAA"}}]
+}

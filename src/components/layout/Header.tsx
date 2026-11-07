@@ -15,6 +15,7 @@ export function Header() {
         <nav aria-label="Navegação principal">
           <Link href="/aulas/">Aulas</Link>
           <Link href="/laboratorio/">Laboratório</Link>
+          <Link href="/descobertas/">Descobertas</Link>
           <Link className={s.contact} href="/explicacoes/">
             Explicações <ArrowUpRight size={15} />
           </Link>

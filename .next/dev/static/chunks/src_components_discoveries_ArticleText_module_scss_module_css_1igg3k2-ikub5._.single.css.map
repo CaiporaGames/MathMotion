@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///C:/Users/darag/Documents/GitHub/MathMotion/src/components/discoveries/ArticleText.module.scss"],"sourcesContent":[".text {\n  font-size: 1.04rem;\n  line-height: 1.85;\n  overflow-wrap: break-word;\n}\n\n.text p, .text li {\n  color: #41564a;\n}\n\n.text p {\n  margin: 0 0 20px;\n}\n\n.text strong {\n  color: var(--ink);\n}\n\n.text blockquote {\n  margin: 24px 0;\n  border-left: 3px solid #678c55;\n  padding: 16px 22px;\n  background: #f3f6ed;\n  border-radius: 0 12px 12px 0;\n}\n\n.text blockquote p:last-child {\n  margin-bottom: 0;\n}\n\n.text h3 {\n  font-size: 1.25rem;\n  margin: 30px 0 16px;\n}\n\n.text ul, .text ol {\n  padding-left: 24px;\n}\n\n.text li {\n  padding-left: 5px;\n  margin: 12px 0;\n}\n\n.formula {\n  overflow-x: auto;\n  max-width: 100%;\n  background: #f5f6f0;\n  padding: 6px 14px;\n  border-radius: 10px;\n  margin: 20px 0;\n  font-size: 0.98rem;\n}\n\n@media (max-width: 600px) {\n  .text {\n    font-size: 0.97rem;\n  }\n  .text blockquote {\n    padding: 14px;\n  }\n  .formula {\n    font-size: 0.85rem;\n  }\n}"],"names":[],"mappings":"AAAA;;;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;;;AACA;;;;AACA;;;;;AACA;;;;AACA;;;;;AACA;;;;;;;;;;AACA;EAA2B;;;;EAA6B;;;;EAAoC"}}]
+}

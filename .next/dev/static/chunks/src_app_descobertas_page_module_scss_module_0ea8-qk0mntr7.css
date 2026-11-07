@@ -1,0 +1,96 @@
+/* [project]/src/app/descobertas/page.module.scss.module.css [app-client] (css) */
+.page-module-scss-module__vuytgq__page {
+  padding-bottom: 80px;
+}
+
+.page-module-scss-module__vuytgq__articles {
+  gap: 24px;
+  margin-top: 24px;
+  display: grid;
+}
+
+.page-module-scss-module__vuytgq__card {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fff;
+  border-radius: 24px;
+  grid-template-columns: minmax(240px, .7fr) 1.3fr;
+  display: grid;
+  overflow: hidden;
+}
+
+.page-module-scss-module__vuytgq__card:hover .page-module-scss-module__vuytgq__cta {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.page-module-scss-module__vuytgq__visual {
+  background: #e3edcc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 38px;
+  display: flex;
+}
+
+.page-module-scss-module__vuytgq__visual > span {
+  font: italic 2.3rem Georgia, serif;
+}
+
+.page-module-scss-module__vuytgq__visual > div {
+  grid-template-columns: repeat(4, 46px);
+  gap: 6px;
+  display: grid;
+  transform: rotate(-5deg);
+}
+
+.page-module-scss-module__vuytgq__visual i {
+  text-align: center;
+  background: #f9fbed;
+  border: 1px solid #b2c692;
+  border-radius: 7px;
+  padding: 14px 4px;
+  font: .8rem monospace;
+}
+
+.page-module-scss-module__vuytgq__visual i:nth-child(-n+4) {
+  background: #b7d783;
+}
+
+.page-module-scss-module__vuytgq__visual small {
+  font-size: .76rem;
+}
+
+.page-module-scss-module__vuytgq__copy {
+  padding: clamp(24px, 4vw, 48px);
+}
+
+.page-module-scss-module__vuytgq__copy h2 {
+  margin-bottom: 12px;
+  font-size: 2rem;
+}
+
+.page-module-scss-module__vuytgq__copy h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.page-module-scss-module__vuytgq__cta {
+  color: var(--green);
+  font-size: .88rem;
+  font-weight: 800;
+}
+
+@media (max-width: 650px) {
+  .page-module-scss-module__vuytgq__card {
+    grid-template-columns: 1fr;
+  }
+
+  .page-module-scss-module__vuytgq__visual {
+    padding: 26px;
+  }
+}
+
+/*# sourceMappingURL=src_app_descobertas_page_module_scss_module_0ea8-qk0mntr7.css.map*/

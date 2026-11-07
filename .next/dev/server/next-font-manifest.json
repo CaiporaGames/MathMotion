@@ -1,6 +1,8 @@
 {
   "app": {
     "[project]/src/app/aulas/[slug]/page": [],
+    "[project]/src/app/descobertas/[slug]/page": [],
+    "[project]/src/app/descobertas/page": [],
     "[project]/src/app/page": []
   },
   "appUsingSizeAdjust": false,

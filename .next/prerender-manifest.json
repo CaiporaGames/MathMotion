@@ -5,7 +5,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 70694,
+      "htmlSize": 74835,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -62,7 +62,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 12525,
+      "htmlSize": 12787,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -90,7 +90,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 13699,
+      "htmlSize": 13922,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -118,7 +118,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 74423,
+      "htmlSize": 84528,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -142,11 +142,39 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/aulas/area-trapezio-horta": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 92224,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/aulas/[slug]",
+      "dataRoute": "/aulas/area-trapezio-horta.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/aulas/area-triangulo-quadrado": {
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 74948,
+      "htmlSize": 75185,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -174,7 +202,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 46601,
+      "htmlSize": 46850,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -202,7 +230,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 112083,
+      "htmlSize": 112332,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -230,7 +258,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 98577,
+      "htmlSize": 98826,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -258,7 +286,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 41808,
+      "htmlSize": 42057,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -286,7 +314,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 117806,
+      "htmlSize": 118055,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -314,7 +342,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 92474,
+      "htmlSize": 92724,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -338,11 +366,67 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/descobertas": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 15417,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/descobertas",
+      "dataRoute": "/descobertas.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/descobertas/reconstruindo-a-combinatoria": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 611911,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/descobertas/[slug]",
+      "dataRoute": "/descobertas/reconstruindo-a-combinatoria.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/explicacoes": {
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 27745,
+      "htmlSize": 27968,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -370,7 +454,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 31355,
+      "htmlSize": 31578,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -398,7 +482,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 23716,
+      "htmlSize": 23965,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -426,7 +510,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 31247,
+      "htmlSize": 31496,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -454,7 +538,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 24440,
+      "htmlSize": 24689,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -482,7 +566,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 24791,
+      "htmlSize": 25040,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -510,7 +594,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 27565,
+      "htmlSize": 27814,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -538,7 +622,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 26079,
+      "htmlSize": 26328,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -566,7 +650,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 27662,
+      "htmlSize": 27911,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -594,7 +678,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 26773,
+      "htmlSize": 27022,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -622,7 +706,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 32291,
+      "htmlSize": 32540,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -650,7 +734,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 26798,
+      "htmlSize": 27047,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -678,7 +762,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 25468,
+      "htmlSize": 25717,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -706,7 +790,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 24886,
+      "htmlSize": 25135,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -734,7 +818,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 24885,
+      "htmlSize": 25134,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -762,7 +846,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 17450,
+      "htmlSize": 17673,
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -809,6 +893,37 @@
       "fallbackRootParams": [],
       "fallbackRouteParams": [],
       "dataRouteRegex": "^/aulas/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/descobertas/[slug]": {
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "routeRegex": "^/descobertas/([^/]+?)(?:/)?$",
+      "dataRoute": "/descobertas/[slug].rsc",
+      "fallback": null,
+      "fallbackRootParams": [],
+      "fallbackRouteParams": [],
+      "dataRouteRegex": "^/descobertas/([^/]+?)\\.rsc$",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",

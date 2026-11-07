@@ -14,6 +14,7 @@ export function Footer() {
         <div className={s.links}>
           <Link href="/aulas/">Aulas</Link>
           <Link href="/laboratorio/">Laboratório</Link>
+          <Link href="/descobertas/">Descobertas</Link>
           <Link href="/explicacoes/">
             Falar com o Timóteo <ArrowUpRight size={14} />
           </Link>

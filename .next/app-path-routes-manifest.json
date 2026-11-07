@@ -5,8 +5,10 @@
   "/aulas/page": "/aulas",
   "/admin/page": "/admin",
   "/aulas/[slug]/page": "/aulas/[slug]",
-  "/laboratorio/page": "/laboratorio",
-  "/laboratorio/[kind]/page": "/laboratorio/[kind]",
+  "/descobertas/[slug]/page": "/descobertas/[slug]",
+  "/descobertas/page": "/descobertas",
   "/explicacoes/page": "/explicacoes",
+  "/laboratorio/[kind]/page": "/laboratorio/[kind]",
+  "/laboratorio/page": "/laboratorio",
   "/privacidade/page": "/privacidade"
 }

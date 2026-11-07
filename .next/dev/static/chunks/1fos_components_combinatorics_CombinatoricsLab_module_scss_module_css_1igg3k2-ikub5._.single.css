@@ -1,0 +1,327 @@
+/* [project]/src/components/combinatorics/CombinatoricsLab.module.scss.module.css [app-client] (css) */
+.CombinatoricsLab-module-scss-module__oo_3eq__lab {
+  background: #f5f8ef;
+  border: 1px solid #c8dac7;
+  border-radius: 20px;
+  min-width: 0;
+  margin: 28px 0 18px;
+  padding: clamp(16px, 3vw, 28px);
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__labHeading {
+  color: var(--green);
+  letter-spacing: .09em;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: .72rem;
+  font-weight: 800;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__lab p {
+  font-size: .94rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__lab h4 {
+  margin: 20px 0 10px;
+  font-size: .94rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__controls {
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 22px 0;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__controls label {
+  gap: 7px;
+  min-width: 0;
+  max-width: 100%;
+  font-size: .78rem;
+  font-weight: 700;
+  display: grid;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__controls select {
+  max-width: 100%;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid #bfcfbd;
+  border-radius: 9px;
+  padding: 10px;
+  font-size: .86rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__scroll {
+  max-width: 100%;
+  padding: 5px 4px 12px;
+  overflow-x: auto;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__matrix {
+  border-spacing: 5px;
+  width: 100%;
+  font-size: .9rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__matrix th {
+  min-width: 28px;
+  font-size: .8rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__matrix td {
+  padding: 0;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__cell {
+  color: #244a36;
+  white-space: nowrap;
+  background: #e5f2dc;
+  border: 1px solid #abc8ac;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  min-width: 94px;
+  min-height: 66px;
+  padding: 8px 4px;
+  font-weight: 700;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__cell small {
+  font-size: .57rem;
+  font-weight: 400;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__valid, .CombinatoricsLab-module-scss-module__oo_3eq__single {
+  background: #e5f2dc;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__paired {
+  background: #dcefe7;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__excluded {
+  color: #626866;
+  background: #eeefeb;
+  border-style: dashed;
+  border-color: #aeb5ad;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__excluded > span {
+  text-decoration: line-through;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__equivalent {
+  color: #785413;
+  background: #f7e9cf;
+  border-color: #cbb482;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__diagonal {
+  color: #334c7e;
+  background: #e1eafa;
+  border-color: #99b4dc;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__highlighted {
+  outline-offset: -3px;
+  outline: 3px solid #6754a8;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__cell:focus-visible {
+  outline-offset: 2px;
+  outline: 3px solid #6754a8;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__planes {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  display: grid;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__plane {
+  min-width: 0;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__stats {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__stats > div {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 10px;
+  flex: 100px;
+  padding: 13px;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__stats strong {
+  overflow-wrap: anywhere;
+  font-size: 1.4rem;
+  display: block;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__stats span {
+  color: #52675a;
+  margin-top: 4px;
+  font-size: .74rem;
+  line-height: 1.4;
+  display: block;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__lab .CombinatoricsLab-module-scss-module__oo_3eq__note {
+  margin: 16px 0 0;
+  font-size: .8rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__selection {
+  background: #eee9f7;
+  border-left: 3px solid #6754a8;
+  padding: 13px;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pills {
+  flex-wrap: wrap;
+  gap: 6px;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__word {
+  background: #fff;
+  border: 1px solid #cbd8c7;
+  border-radius: 8px;
+  padding: 6px 9px;
+  font: .85rem / 1.4 monospace;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__factor {
+  background: #e4efd5;
+  border-radius: 9px;
+  min-width: 82px;
+  padding: 12px;
+  font-size: .76rem;
+  display: grid;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__factor strong {
+  font-size: 1.7rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__bits {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__bits button {
+  max-width: 125px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid #c2cebd;
+  border-radius: 14px;
+  flex: 65px;
+  padding: 15px;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__bits strong, .CombinatoricsLab-module-scss-module__oo_3eq__bits small {
+  display: block;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__bits strong {
+  font-size: 2rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__bits small {
+  font-size: .68rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__bits .CombinatoricsLab-module-scss-module__oo_3eq__included {
+  background: #d7ed91;
+  border-color: #587e36;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalPanel {
+  border-top: 1px solid var(--line);
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascal {
+  min-width: 500px;
+  padding: 8px 4px;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalRow {
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalRow > div {
+  flex: 1;
+  justify-content: center;
+  gap: 4px;
+  display: flex;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalRow button {
+  width: 40px;
+  min-height: 43px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid #c5d2bf;
+  border-radius: 7px;
+  font-size: .85rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalRow small {
+  font-size: .46rem;
+  display: block;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalRow .CombinatoricsLab-module-scss-module__oo_3eq__chosen {
+  background: #d7ed91;
+  outline: 2px solid #496b38;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__pascalRow .CombinatoricsLab-module-scss-module__oo_3eq__parent {
+  background: #f7e9cf;
+  border-color: #ac813b;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__rowLabel, .CombinatoricsLab-module-scss-module__oo_3eq__rowSum {
+  min-width: 42px;
+  font-size: .7rem;
+}
+
+.CombinatoricsLab-module-scss-module__oo_3eq__rowSum {
+  text-align: right;
+  min-width: 65px;
+}
+
+@media (max-width: 680px) {
+  .CombinatoricsLab-module-scss-module__oo_3eq__planes {
+    grid-template-columns: 1fr;
+  }
+
+  .CombinatoricsLab-module-scss-module__oo_3eq__cell {
+    min-width: 75px;
+    font-size: .78rem;
+  }
+
+  .CombinatoricsLab-module-scss-module__oo_3eq__controls label {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=1fos_components_combinatorics_CombinatoricsLab_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/
