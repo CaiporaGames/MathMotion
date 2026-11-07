@@ -153,7 +153,7 @@ export function LessonView({
           {!!relatedLessons.length && (
             <section className={s.block} aria-label="Aulas relacionadas">
               <span className="eyebrow">CONTINUA A DESCOBERTA</span>
-              <h2>Da área ao volume.</h2>
+              <h2>Continua a explorar.</h2>
               {relatedLessons.map(related => (
                 <p key={related.slug}><Link className="button" href={`/aulas/${related.slug}/`}>{related.title} →</Link></p>
               ))}

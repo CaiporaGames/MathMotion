@@ -7,6 +7,7 @@ import { ExplorerController } from './ExplorerController';
 import { SubmissionController } from './SubmissionController';
 import { DecimalExplorerController } from './DecimalExplorerController';
 import { getLesson } from '@/services/content.service';
+import { TrapezoidController } from './TrapezoidController';
 import { PartitionController } from './PartitionController';
 import { SquareSequenceController } from './SquareSequenceController';
 export function LessonController({ lesson }: { lesson: Lesson }) {
@@ -34,7 +35,9 @@ export function LessonController({ lesson }: { lesson: Lesson }) {
       completed={completed}
       onComplete={() => toggle(lesson.slug)}
       onQuestion={ask}
-      explorer={lesson.partitionExplorer
+      explorer={lesson.trapezoidExplorer
+        ? <TrapezoidController />
+        : lesson.partitionExplorer
         ? <PartitionController key={lesson.partitionExplorer} kind={lesson.partitionExplorer} />
         : lesson.sequenceExplorer
         ? <SquareSequenceController />

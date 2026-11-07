@@ -1,0 +1,9 @@
+.explorer { background: white; border: 1px solid var(--line); border-radius: 22px; padding: clamp(16px,3vw,26px); min-width: 0; h3 { font-size: 1.4rem; margin: 12px 0; } button { font: inherit; padding: 10px 13px; border-radius: 12px; border: 1px solid #d3ddcf; background: #f2f6ec; color: #254a3b; cursor: pointer; } button[aria-pressed='true'] { background: #254a3b; color: white; } button:focus-visible,input:focus-visible { outline: 3px solid #9874c4; outline-offset: 3px; } }
+.buttons { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+.body { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(180px,1fr); align-items: center; gap: 20px; svg { width: 100%; height: auto; display: block; } p { font-size: .85rem; line-height: 1.6; } }
+.control { margin: 15px 0; label { display: flex; justify-content: space-between; gap: 10px; font-size: .85rem; } input { width: 100%; accent-color: #254a3b; min-height: 30px; } }
+.metrics { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; div { padding: 14px; background: #f3f6ef; border-radius: 12px; } dt { font-size: .75rem; } dd { margin: 6px 0 0; font-size: 1.2rem; font-weight: 800; } }
+.formula { overflow-x: auto; }
+.note { padding: 15px; border-radius: 12px; background: #eee9f8; line-height: 1.7; font-size: .85rem; }
+@media(max-width:720px) { .body { grid-template-columns: 1fr; } }
+@media(max-width:440px) { .metrics { grid-template-columns: 1fr; } }

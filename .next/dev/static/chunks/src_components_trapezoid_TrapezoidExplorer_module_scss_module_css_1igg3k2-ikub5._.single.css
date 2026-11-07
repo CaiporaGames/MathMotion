@@ -1,0 +1,123 @@
+/* [project]/src/components/trapezoid/TrapezoidExplorer.module.scss.module.css [app-client] (css) */
+.TrapezoidExplorer-module-scss-module__i2_Z8G__explorer {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 22px;
+  min-width: 0;
+  padding: clamp(16px, 3vw, 26px);
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__explorer h3 {
+  margin: 12px 0;
+  font-size: 1.4rem;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__explorer button {
+  font: inherit;
+  color: #254a3b;
+  cursor: pointer;
+  background: #f2f6ec;
+  border: 1px solid #d3ddcf;
+  border-radius: 12px;
+  padding: 10px 13px;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__explorer button[aria-pressed="true"] {
+  color: #fff;
+  background: #254a3b;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__explorer button:focus-visible, .TrapezoidExplorer-module-scss-module__i2_Z8G__explorer input:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #9874c4;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__buttons {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+  display: flex;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__body {
+  grid-template-columns: minmax(0, 1.6fr) minmax(180px, 1fr);
+  align-items: center;
+  gap: 20px;
+  display: grid;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__body svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__body p {
+  font-size: .85rem;
+  line-height: 1.6;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__control {
+  margin: 15px 0;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__control label {
+  justify-content: space-between;
+  gap: 10px;
+  font-size: .85rem;
+  display: flex;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__control input {
+  accent-color: #254a3b;
+  width: 100%;
+  min-height: 30px;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__metrics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  display: grid;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__metrics div {
+  background: #f3f6ef;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__metrics dt {
+  font-size: .75rem;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__metrics dd {
+  margin: 6px 0 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__formula {
+  overflow-x: auto;
+}
+
+.TrapezoidExplorer-module-scss-module__i2_Z8G__note {
+  background: #eee9f8;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: .85rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 720px) {
+  .TrapezoidExplorer-module-scss-module__i2_Z8G__body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 440px) {
+  .TrapezoidExplorer-module-scss-module__i2_Z8G__metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_components_trapezoid_TrapezoidExplorer_module_scss_module_css_1igg3k2-ikub5._.single.css.map*/

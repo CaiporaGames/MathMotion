@@ -4,8 +4,9 @@ import squareSequence from '@/data/lessons/sequencia-quadrados.json';
 import zeroProduct from '@/data/lessons/produto-nulo-balanca.json';
 import triangleArea from '@/data/lessons/area-triangulo-quadrado.json';
 import pyramidVolume from '@/data/lessons/volume-piramide-cubo.json';
+import trapezoidGarden from '@/data/lessons/area-trapezio-horta.json';
 import type { Lesson, ToolInfo } from '@/types/content';
-export const lessons = [...data, repeatingDecimals, squareSequence, zeroProduct, triangleArea, pyramidVolume] as unknown as Lesson[];
+export const lessons = [...data, repeatingDecimals, squareSequence, zeroProduct, triangleArea, pyramidVolume, trapezoidGarden] as unknown as Lesson[];
 export function getLessons() {
   return [...lessons].sort((a, b) => b.date.localeCompare(a.date));
 }

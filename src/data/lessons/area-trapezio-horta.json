@@ -1,0 +1,135 @@
+{
+  "slug": "area-trapezio-horta",
+  "title": "Uma horta. Duas figuras conhecidas.",
+  "subtitle": "Reconstrói a área do trapézio juntando um retângulo e metade de outro.",
+  "topic": "Geometria",
+  "years": [
+    7,
+    8,
+    9
+  ],
+  "minutes": 30,
+  "date": "2026-11-06",
+  "image": "/images/trapezoid-garden.svg",
+  "imageAlt": "Trapézio retângulo ABCD com bases de 20 e 12 metros e altura de 6 metros, dividido num retângulo e num triângulo retângulo.",
+  "accent": "green",
+  "problem": "Uma horta tem a forma de um trapézio retângulo ABCD, retângulo em A. As bases paralelas são AB = 20 m e DC = 12 m; AD = 6 m. Qual das expressões representa a área da horta, em m²? A: [(20 + 12)/2] × 6. B: (20 × 12)/2 + 6. C: [(20 + 6)/2] × 12. D: (20 × 6)/2 + 12.",
+  "question": "Sem recordar a fórmula do trapézio: onde traçarias um segmento para obter duas figuras cujas áreas já sabes calcular?",
+  "hints": [
+    "Traça de C uma perpendicular à base AB. Chama E ao ponto onde ela encontra AB.",
+    "O retângulo AECD tem largura 12 e altura 6. O triângulo EBC ocupa o que sobra à direita.",
+    "A base do triângulo é EB = 20 − 12 = 8, não 20 nem 12. As duas peças têm altura 6."
+  ],
+  "tool": "area",
+  "trapezoidExplorer": true,
+  "relatedLessons": [
+    "area-triangulo-quadrado"
+  ],
+  "steps": [
+    {
+      "title": "Começar por um quadrado",
+      "text": "Num quadrado de lado a, a área é a². Pensa numa grelha de quadrados unitários: contamos linhas e colunas. Se alargarmos uma dimensão, obtemos um retângulo. Com largura b e altura h, a área passa a ser bh; quando b = h = a, regressamos ao quadrado. A mesma regra estende-se a medidas não inteiras por subdivisão e aproximação.",
+      "formula": "A_{\\square}=a^2\\qquad A_{\\text{retângulo}}=bh"
+    },
+    {
+      "title": "Um triângulo como metade de um retângulo",
+      "text": "Toma outro retângulo com largura d e a mesma altura h. Uma diagonal divide-o em dois triângulos retângulos congruentes. Cada um tem metade da área. Usamos d por enquanto, para não confundir a largura desta peça com as bases do trapézio.",
+      "formula": "A_{\\triangle}=\\frac{dh}{2}"
+    },
+    {
+      "title": "Juntar as figuras",
+      "text": "Encosta o lado vertical do triângulo ao lado direito do primeiro retângulo. As duas peças partilham apenas a fronteira, sem sobreposição interior. O contorno da união é um trapézio retângulo: em cima fica a largura do retângulo; em baixo fica essa largura mais a base do triângulo."
+    },
+    {
+      "title": "Dar nomes às bases certas",
+      "text": "Chamamos b à base menor, B à base maior e h à altura comum. A base maior contém a largura b do retângulo e a base d do triângulo. Por isso B = b + d e d = B − b. Não podemos usar B como base do triângulo: isso contaria novamente a parte que está debaixo do retângulo.",
+      "formula": "B=b+d\\quad\\Longrightarrow\\quad d=B-b"
+    },
+    {
+      "title": "Somar as duas áreas",
+      "text": "A área da união é a soma das áreas das peças. O retângulo contribui com bh. O triângulo contribui com (B − b)h/2. A fórmula nasce desta soma, sem precisar de ser memorizada primeiro.",
+      "formula": "A=bh+\\frac{(B-b)h}{2}"
+    },
+    {
+      "title": "Reorganizar com distributividade",
+      "text": "Escrevemos bh como 2bh/2 para ter o mesmo denominador. Desenvolvemos o produto e juntamos os termos semelhantes: 2bh − bh = bh. Por fim colocamos h em evidência.",
+      "formula": "\\begin{aligned}A&=\\frac{2bh+(B-b)h}{2}\\\\&=\\frac{2bh+Bh-bh}{2}\\\\&=\\frac{Bh+bh}{2}\\\\&=\\boxed{\\frac{(B+b)h}{2}}\\end{aligned}"
+    },
+    {
+      "title": "E se o trapézio não for retângulo?",
+      "text": "A decomposição num retângulo e num único triângulo usa o ângulo reto. Para um trapézio convexo qualquer, uma diagonal divide a figura em dois triângulos: um tem base B, o outro base b, e ambos têm altura h, a distância entre as retas paralelas. Somar as suas áreas dá a mesma fórmula. Assim justificamos a generalização.",
+      "formula": "A=\\frac{Bh}{2}+\\frac{bh}{2}=\\frac{(B+b)h}{2}"
+    },
+    {
+      "title": "Voltar à horta e localizar a altura",
+      "text": "As bases são AB e DC porque são os lados paralelos: B = 20 m e b = 12 m. O lado AD mede 6 m e é perpendicular às bases, portanto h = 6 m. Traçamos CE perpendicular a AB: AE = 12 m, EB = 8 m e CE = 6 m.",
+      "formula": "B=20,\\quad b=12,\\quad h=6,\\quad d=20-12=8"
+    },
+    {
+      "title": "Resolver pela decomposição",
+      "text": "O retângulo tem área 12 × 6 = 72 m². O triângulo é metade de um retângulo de 8 por 6, por isso tem área 24 m². Juntando as duas peças, a horta ocupa 96 m².",
+      "formula": "A=12\\cdot6+\\frac{(20-12)\\cdot6}{2}=72+24=96\\ \\mathrm{m}^2"
+    },
+    {
+      "title": "Escolher a expressão da prova",
+      "text": "A pergunta pede uma expressão, não apenas um número. Substituir as bases e a altura na fórmula dá exatamente a opção A. A ordem das operações importa: somamos as bases, dividimos essa soma por dois e multiplicamos pela altura.",
+      "formula": "\\boxed{\\text{Opção A}}\\qquad\\frac{20+12}{2}\\times6=16\\times6=96\\ \\mathrm{m}^2"
+    },
+    {
+      "title": "Por que as outras expressões não servem?",
+      "text": "Em B, multiplicam-se as duas bases e soma-se a altura: mistura uma área com um comprimento. Em C, o 6 foi tratado como base e o 12 como altura, contrariando a figura; a expressão dá 156, não 96. Em D, soma-se novamente um comprimento a uma área. Os símbolos e as unidades ajudam a detetar o erro antes mesmo de calcular tudo."
+    },
+    {
+      "title": "Uma verificação visual",
+      "text": "A horta contém um retângulo de 12 por 6 e está contida num retângulo de 20 por 6. A sua área deve ficar entre 72 e 120 m². O valor 96 fica nesse intervalo e é a média dessas duas áreas. Isto verifica a plausibilidade do resultado; a decomposição é que o demonstra.",
+      "formula": "72<96<120\\qquad\\frac{72+120}{2}=96"
+    }
+  ],
+  "takeaways": [
+    "O quadrado é um caso particular do retângulo; ao variar uma dimensão, a área é largura × altura.",
+    "No trapézio retângulo, podemos separar um retângulo e um triângulo retângulo.",
+    "B é a base maior, b é a base menor e B − b é a base do triângulo acrescentado.",
+    "A altura é a distância perpendicular entre as bases paralelas; o lado inclinado não é a altura.",
+    "Somamos áreas porque as peças cobrem a figura sem sobreposição interior.",
+    "A = (B + b)h/2: a média das bases multiplicada pela altura.",
+    "A expressão a escolher é a opção A; o valor da área é 96 m²."
+  ],
+  "exercises": [
+    {
+      "question": "Um trapézio retângulo tem bases 14 cm e 8 cm e altura 5 cm. Qual é a área?",
+      "hint": "A base do triângulo é 14 − 8.",
+      "answer": "55 cm².",
+      "explanation": "Retângulo: 8 × 5 = 40. Triângulo: 6 × 5/2 = 15. Total: 55."
+    },
+    {
+      "question": "Na horta, porque a base do triângulo é 8 m e não 20 m?",
+      "hint": "Separa AB em AE e EB.",
+      "answer": "Porque 12 m dos 20 m já pertencem à largura do retângulo.",
+      "explanation": "EB = AB − AE = 20 − 12 = 8. Usar 20 contaria uma região adicional."
+    },
+    {
+      "question": "As bases são 20 m e 12 m. Se a altura duplicar, o que acontece à área?",
+      "hint": "Mantém as bases e muda só h.",
+      "answer": "Duplica: passa de 96 m² para 192 m².",
+      "explanation": "A altura aparece como um fator. Duplicá-la duplica as áreas das duas peças."
+    },
+    {
+      "question": "O retângulo inicial é um quadrado de lado 6 cm. Acrescentamos um triângulo de base 4 cm e altura 6 cm. Quais são as bases do trapézio e a sua área?",
+      "hint": "A base maior inclui as duas larguras.",
+      "answer": "b = 6 cm, B = 10 cm e A = 48 cm².",
+      "explanation": "O quadrado contribui com 36 e o triângulo com 12. Também (10 + 6) × 6/2 = 48."
+    },
+    {
+      "question": "Um trapézio tem área 80 cm² e bases 12 cm e 8 cm. Qual é a altura?",
+      "hint": "Substitui na fórmula e isola h.",
+      "answer": "8 cm.",
+      "explanation": "80 = (12 + 8)h/2 = 10h, portanto h = 8."
+    },
+    {
+      "question": "Se as duas bases se tornarem iguais a 12 m e a altura for 6 m, o que acontece nesta construção?",
+      "hint": "A largura B − b passa a ser zero.",
+      "answer": "O triângulo desaparece e resta um retângulo de área 72 m².",
+      "explanation": "A expressão dá (12 + 12) × 6/2 = 72. É o caso limite desta construção; a classificação como trapézio depende da convenção adotada."
+    }
+  ]
+}

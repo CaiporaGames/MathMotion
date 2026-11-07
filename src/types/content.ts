@@ -35,6 +35,7 @@ export type Lesson = {
   tool: ToolKind;
   decimalExplorer?: boolean;
   sequenceExplorer?: boolean;
+  trapezoidExplorer?: boolean;
   partitionExplorer?: 'square' | 'cube';
   relatedLessons?: string[];
   toolConfig?: ToolConfig;
